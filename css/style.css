@@ -27,6 +27,11 @@ a {
     right: 0;
 }
 
+/*Header*/
+
+.header {
+    position: fixed;
+}
 
 /*Menu*/
 
@@ -62,8 +67,25 @@ footer {
     text-align: center;
 }
 
+/*Hidden*/
+
+.hidden {
+    display: none;
+}
+
 /*INDEX*/
 
 .menu_index {
-    top: 142px;
+    top: 148px;
+    font-family: 'JosefinSans-Light';
+    padding-top: 48px;
+    padding: 0em;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
+
+.menu_index li {
+    padding: 0px 8px;
+}
+

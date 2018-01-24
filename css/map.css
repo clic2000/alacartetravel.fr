@@ -1,0 +1,41 @@
+.map {
+    width:62%;
+    padding:Opx 2px;
+    margin-bottom:  40px;
+    margin-left: auto;
+    margin-right: auto;
+    stroke: #fff;
+    stroke-width: 1px;
+    border: none;
+  }
+
+  .map path:hover {
+    fill: #E7EFE8;
+  }
+
+  /*Countries colors*/
+
+    
+  .asia {
+    fill: #95C0CC;
+  }
+
+  .europe {
+    fill: #89B9D1; 
+  }
+
+  .africa {
+    fill: #AECEC8;
+  }
+
+  .south_america {
+    fill: rgb(177, 219, 207);
+  }
+
+  .oceania {
+    fill: #BED8C4;
+  }
+
+  .north_america {
+    fill: rgb(170, 214, 216);
+  }
