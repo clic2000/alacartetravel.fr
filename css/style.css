@@ -124,14 +124,30 @@ footer {
 
 /*DESTINATIONS*/
 
-.imgdestination {
-    border-radius: 1.5%;
-}
-
 .imgdestination:hover {
     opacity: 0.5;
 }
 
 .destination {
     padding-bottom: 30px;
+}
+
+.titledest {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: white;
+    background-color: black;
+    opacity: 0.4;
+    text-align: left;
+    padding: 2px 4px;
+    height: 24px;
+}
+
+.boite {
+    position: relative;
+}
+
+.radius {
+    border-radius: 1.5%;
 }
