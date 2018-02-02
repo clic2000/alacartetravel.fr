@@ -121,3 +121,17 @@ footer {
 .color4 {
     background-color: #daa79b;
 }
+
+/*DESTINATIONS*/
+
+.imgdestination {
+    border-radius: 1.5%;
+}
+
+.imgdestination:hover {
+    opacity: 0.5;
+}
+
+.destination {
+    padding-bottom: 30px;
+}
