@@ -151,3 +151,10 @@ footer {
 .radius {
     border-radius: 1.5%;
 }
+
+/*ACTUALITÉS*/
+
+.fb {
+    width: 500px;
+    margin: 0px auto;
+}

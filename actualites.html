@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>À La Carte Travel</title>
+        <!--LINKS TO CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/map.css" />
+        <!--LINK TO JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <!--JQUERY - FADEIN EFFECT-->
+        <script>
+            jQuery(document).ready(function () {
+                $('div.hidden').fadeIn(2000).removeClass('hidden');
+            });
+        </script>
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <header>
+            <div class="alct">
+                <p><a href="index.html">À LA CARTE TRAVEL</a></p>
+            </div>
+        </header>
+
+        <!--MENU-->
+        <div class="tabs is-centered is-small is-boxed menu">
+            <ul>
+                <li>
+                    <a href="concept.html">CONCEPT</a>
+                </li>
+                <li>
+                    <a href="destinations.html">DESTINATIONS</a>
+                </li>
+                <li>
+                    <a href="evenementiel.html">ÉVÉNEMENTIEL</a>
+                </li>
+                <li>
+                    <a href="garanties.html">GARANTIES</a>
+                </li>
+                <li class="is-active">
+                    <a href="actualites.html">ACTUALITÉS</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/alctvoyages/">
+                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/alctvoyages/">
+                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--FACEBOOK FEED-->
+	<div class="hidden fb">
+	    <iframe
+	    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Falctvoyages&tabs=timeline%2C%20events&width=500&height=600&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+	    width="500" height="600" class="radius" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+        <!--FOOTER-->
+        <footer>
+                <a href="https://myrdin.me">Site Web : Myrdin</a> · <a href="#">Mentions Légales</a>
+        </footer>
+
+    </body>
+
+</html>
