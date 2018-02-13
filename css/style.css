@@ -192,3 +192,135 @@ li {
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
+
+/*EUROPE*/
+
+.bgeurope {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/europe.jpeg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+/*AFRIQUE*/
+
+.bgafrique  {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/afrique.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+/*AMERIQUE DU NORD*/
+
+.bgameriquenord  {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/ameriquenord.jpeg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+/*AMERIQUE DU SUD*/
+
+.bgameriquesud  {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/ameriquesud.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+/*ASIE*/
+
+.bgasie  {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+/*OCEANIE*/
+
+.bgoceanie  {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/destinations/grand/oceanie.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+.continent {
+    font-family: 'JosefinSans-Light';
+    font-size: 280%;
+    font-weight: 900;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+.patience {
+    position: absolute;
+    left: 2%;
+    top: 12%;
+}
+
+.continentwhite {
+    font-family: 'JosefinSans-Light';
+    color: white;
+    font-size: 280%;
+    font-weight: 900;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+.patiencewhite{
+    color: white;
+    position: absolute;
+    left: 2%;
+    top: 12%;
+}
+
