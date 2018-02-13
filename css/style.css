@@ -89,6 +89,7 @@ footer {
 /*CONCEPT*/
 
 .picto {
+    width: 58px;
     margin: 4%;
     padding-bottom:10px
 }
@@ -96,6 +97,14 @@ footer {
 .text {
     text-align: center;
 }
+
+li { 
+    display: list-item;
+    margin-left: 1em;
+    list-style: disc;
+    text-align: center;
+}
+
 
 #imgconcept {
     border-radius: 1%;
