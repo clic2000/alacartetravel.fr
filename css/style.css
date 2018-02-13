@@ -167,3 +167,30 @@ li {
     width: 500px;
     margin: 0px auto;
 }
+
+/*CONTACT*/
+
+#formulaire {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.bgcontact {
+    position: fixed;
+    top:118px;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../img/contact/contact.jpeg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
