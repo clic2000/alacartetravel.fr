@@ -173,11 +173,9 @@ li {
 #formulaire {
     background-color: white;
     border-radius: 5px;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10%;
+    padding: 18px;
+    margin: 30px auto;
+    width: 310px;
 }
 
 .bgcontact {
