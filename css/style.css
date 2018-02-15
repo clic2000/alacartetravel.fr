@@ -324,3 +324,17 @@ li {
     top: 12%;
 }
 
+/*EVENEMENTIEL*/
+
+.evenement {
+    padding-bottom:40px;
+    opacity: 0.7;
+}
+
+.imgevent {
+    border-radius:1%;
+}
+
+.conteneur {
+    display: flex;
+}
