@@ -27,7 +27,6 @@ a {
     text-align: center;
     background-color: white;
     letter-spacing: 4px;
-    padding: 14px;
     left: 0;
     right: 0;
 }
@@ -338,3 +337,31 @@ li {
 .conteneur {
     display: flex;
 }
+
+/*GARANTIES*/
+
+.garanties {
+    padding-bottom:40px;
+    opacity:0.7;
+}
+
+.garanties li {
+    text-align: left;
+}
+
+.color5 {
+    background-color: rgb(170, 214, 216);
+}
+
+.color6 {
+    background-color: rgb(177, 219, 207);
+}
+
+.color7 {
+    background-color: #89B9D1; 
+}
+
+.color8 {
+    background-color: rgb(177, 219, 207);
+}
+

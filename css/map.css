@@ -21,11 +21,12 @@
   }
 
   .europe {
-    fill: #89B9D1; 
+    fill: rgb(177, 219, 207);
+
   }
 
   .africa {
-    fill: #AECEC8;
+    fill: #89B9D1; 
   }
 
   .south_america {
