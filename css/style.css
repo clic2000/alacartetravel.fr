@@ -6,6 +6,11 @@
     font-family: 'JosefinSans-Light';
     src: url('../font/JosefinSans-Light.ttf') format('truetype');
 }
+@font-face{
+    font-family: 'JosefinSans-Bold';
+    src: url('../font/JosefinSans-Bold.ttf') format('truetype');
+    
+}
 
 .title{
     font-family: 'JosefinSans-Light';
@@ -15,8 +20,18 @@
 
 /*Links*/
 
+
+li.is-active a {
+	font-family: 'JosefinSans-Bold';
+    }
+
+.footer1 a {
+    color: grey;
+}
+
 a {
-    color: #d76d8d;
+    color: grey;
+    font-weight: bold;
 }
 
 /*Title*/
@@ -42,7 +57,7 @@ a {
 
 .tabs li.is-active a {
     border-bottom-color: #d76d8d;
-    color: #d76d8d;
+    color: grey;
 }
 
 .menu li{
@@ -58,10 +73,11 @@ footer {
     bottom: 0;
     left:0;
     right: 0;
-    font-size: 100%;
+    font-size: 86%;
     padding-top: 4px;
     text-align: center;
-}
+    }
+
 
 /*Hidden*/
 
@@ -90,7 +106,7 @@ footer {
 .picto {
     width: 58px;
     margin: 4%;
-    padding-bottom:10px
+    padding-top: 70px;
 }
 
 .text {
@@ -100,8 +116,8 @@ footer {
 li { 
     display: list-item;
     margin-left: 1em;
-    list-style: disc;
     text-align: center;
+    padding-top: 8px;
 }
 
 #logoblack {
@@ -118,19 +134,20 @@ li {
 }
 
 .color1 {
-    background-color: #dc9ea7;
+    background-color: #f1f7f8;
 }
 
 .color2 {
-    background-color: #daa899;
+    background-color: #dae9ee;
 }
 
 .color3 {
-    background-color: #d8ae8d;
+    background-color: #e7f1e6;
 }
 
+
 .color4 {
-    background-color: #daa79b;
+    background-color: #e4efe6;
 }
 
 /*DESTINATIONS*/
@@ -177,12 +194,12 @@ li {
     border-radius: 5px;
     padding: 18px;
     margin: 30px auto;
-    width: 310px;
+    width: 510px;
 }
 
 .bgcontact {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -199,7 +216,7 @@ li {
 
 .bgeurope {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -216,7 +233,7 @@ li {
 
 .bgafrique  {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -233,7 +250,7 @@ li {
 
 .bgameriquenord  {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -250,7 +267,7 @@ li {
 
 .bgameriquesud  {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -267,7 +284,7 @@ li {
 
 .bgasie  {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -284,7 +301,7 @@ li {
 
 .bgoceanie  {
     position: fixed;
-    top:118px;
+    top:198px;
     left: 0;
     right: 0;
     width: 1400px;
@@ -345,26 +362,11 @@ li {
 
 .garanties {
     padding-bottom:40px;
+    text-align: justify;
     opacity:0.7;
 }
 
 .garanties li {
     text-align: left;
-}
-
-.color5 {
-    background-color: rgb(170, 214, 216);
-}
-
-.color6 {
-    background-color: rgb(177, 219, 207);
-}
-
-.color7 {
-    background-color: #89B9D1; 
-}
-
-.color8 {
-    background-color: rgb(177, 219, 207);
 }
 
