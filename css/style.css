@@ -386,6 +386,8 @@ li {
     border-radius: 50%;
     height:180px;
     width:180px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .circle p {
@@ -400,14 +402,20 @@ li {
     border-radius: 50%;
     height:80px;
     width:80px;
-    top: 0;
-    left: 120px;
+    top: 150px;
+    left: -28px;
     position: relative;
-    margin-bottom:50px;
 }
 
 .circle2 p {
     position: relative;
     font-size: 80%;
     top:2px;
+}
+
+.cadre-produit {
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-bottom:65px;
 }
