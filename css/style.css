@@ -371,3 +371,43 @@ li {
     text-align: left;
 }
 
+/*PRODUITS*/
+
+.vignette {
+    margin: 10px 70px;
+}
+
+.color-title {
+    color: rgb(177, 219, 207);
+}
+
+.circle {
+    border: 1px;
+    border-radius: 50%;
+    height:180px;
+    width:180px;
+}
+
+.circle p {
+    position: relative;
+    top: 45px;
+    font-size: 110%;
+}
+
+.circle2 {
+    border: 1px;
+    background-color:  rgb(177, 219, 207, 0.7);
+    border-radius: 50%;
+    height:80px;
+    width:80px;
+    top: 0;
+    left: 120px;
+    position: relative;
+    margin-bottom:50px;
+}
+
+.circle2 p {
+    position: relative;
+    font-size: 80%;
+    top:2px;
+}
