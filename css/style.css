@@ -402,21 +402,70 @@ li {
     border-radius: 50%;
     height:80px;
     width:80px;
-    margin:50px 0px 0px 90px;
+    margin:-65px 0px 0px 220px;
 }
 
 .circle2 p {
     position: relative;
     font-size: 80%;
-    top:2px;
+    top:8px;
+}
+
+.circle3 {
+    border: 1px;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+}
+
+.circle3 p {
+    position: relative;
+    top: 68px;
+    padding: 12px;
+    margin-top: 70px;
+    font-size: 80%;
+}
+
+.circle4 {
+    border: 1px;
+    border-radius: 50%;
+    height:180px;
+    width: 180px;
+    background-color: rgb(231, 241, 230, 0.7);
+    margin: -200px 0px 0px 160px;
+}
+
+.circle4 p {
+    position: relative;
+    top: 60px;
+}
+
+.circle5 {
+    border: 1px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(228, 239, 230, 0.7);
+    margin: -130px 0px 0px 190px;
+}
+
+.circle5 p {
+    position: relative;
+    top: 19px;
 }
 
 .cadre-produit {
     text-align: left;
-    margin-top: 60px;
-    margin-bottom:65px;
+    margin: 60px 12px;
+    padding: 20px;
 }
 
 .prix {
     font-size: 80%;
+}
+
+#note {
+    font-size: 90%;
+    margin-bottom: 30px;
+    text-align: center;
 }
