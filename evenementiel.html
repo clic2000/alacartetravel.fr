@@ -2,113 +2,112 @@
 
 <html>
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Événementiel - À La Carte Travel</title>
-        <!--LINKS TO CSS-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/map.css" />
-        <!--LINK TO JQUERY-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <!--JQUERY - FADEIN EFFECT-->
-        <script>
-            jQuery(document).ready(function () {
-                $('div.hidden').fadeIn(2000).removeClass('hidden');
-            });
-        </script>
-    </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Événementiel - À La Carte Travel</title>
+  <!--LINKS TO CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/map.css" />
+  <!--LINK TO JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <!--JQUERY - FADEIN EFFECT-->
+  <script>
+    jQuery(document).ready(function() {
+      $('div.hidden').fadeIn(2000).removeClass('hidden');
+    });
+  </script>
+</head>
 
-    <body>
-        <!--HEADER-->
-        <header>
-            <div class="alct">
-                        <a href="index.html"><img src="img/logosmall.png"></a> 
-            </div>
-        </header>
+<body>
+  <!--HEADER-->
+  <header>
+    <div class="alct">
+      <a href="index.html"><img src="img/logosmall.png"></a>
+    </div>
+  </header>
 
-        <!--MENU-->
-        <div class="tabs is-centered is-small is-boxed menu">
-            <ul>
-                <li>
-                    <a href="concept.html">CONCEPT</a>
-                </li>
-                <li>
-                    <a href="destinations.html">DESTINATIONS</a>
-                </li>
-                <li class="is-active">
-                    <a href="evenementiel.html">ÉVÉNEMENTIEL</a>
-                </li>
-                <li>
-                    <a href="garanties.html">GARANTIES</a>
-                </li>
-                <li>
-                    <a href="actualites.html">ACTUALITÉS</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACT</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/alctvoyages/" target="_blank">
+  <!--MENU-->
+  <div class="tabs is-centered is-small is-boxed menu">
+    <ul>
+      <li>
+        <a href="concept.html">CONCEPT</a>
+      </li>
+      <li>
+        <a href="destinations.html">DESTINATIONS</a>
+      </li>
+      <li class="is-active">
+        <a href="evenementiel.html">ÉVÉNEMENTIEL</a>
+      </li>
+      <li>
+        <a href="garanties.html">GARANTIES</a>
+      </li>
+      <li>
+        <a href="actualites.html">ACTUALITÉS</a>
+      </li>
+      <li>
+        <a href="contact.html">CONTACT</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/alctvoyages/" target="_blank">
                         <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/alctvoyages/" target="_blank">
+      </li>
+      <li>
+        <a href="https://www.instagram.com/alctvoyages/" target="_blank">
                         <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
                     </a>
-                </li>
+      </li>
+    </ul>
+  </div>
+  <div class="hidden evenement">
+    <div class="container is-widescreen">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child box color1">
+            <p>Vous souhaitez partager un moment convivial, découvrir des saveurs nouvelles et des horizons différents ?</br>
+              À La Carte Travel vous propose plusieurs types d’événements en lien avec son concept et ses thématiques : voyage, gastronomie, culture, bien-être et sport/aventure.
+            </p>
+          </div>
+          <div class="tile is-child color2 box">
+            <p class="title">VOTRE ÉVÉNEMENT</br>
+              SUR MESURE</p>
+            <ul>
+              <li>Un séjour d’entreprise en prévision ? Organisez un atelier culinaire autour des saveurs de la destination et permettez à vos employés d’échanger avant le départ.</li>
+              <li>Une activité originale entre amis aux couleurs d’ALCT ? Nous vous proposons un moment convivial et dynamique !</li>
+              <li>Un après-midi culinaire en famille ? Faites voyager vos papilles grâce à des recettes inédites et devenez les rois des fourneaux pour quelques heures…
+              </li>
             </ul>
+            </br>
+            <a href="contact.html">Confiez nous</a> l’organisation de votre événement ! Notre équipe ne manquera pas de mettre les petits plats dans les grands pour vous satisfaire.
+          </div>
         </div>
-       <div class="hidden evenement">
-	<div class="container is-widescreen">
-	   <div class="tile is-ancestor">
-	    <div class="tile is-parent is-vertical">
-		<div class="tile is-child box color1">
-		    <p>Vous souhaitez partager un moment convivial, découvrir des saveurs nouvelles et des horizons différents ?</br>
-À La Carte Travel vous propose plusieurs types d’événements en lien avec son concept et ses thématiques : voyage, gastronomie, culture, bien-être et
-sport/aventure.</p>
-		</div> 
-		<div class="tile is-child color2 box">
-		    <p class="title">VOTRE ÉVÉNEMENT</br>
-		    SUR MESURE</p>
-		    <ul>
-<li>Un séjour d’entreprise en prévision ? Organisez un atelier culinaire autour des saveurs de la destination et permettez à vos employés d’échanger
-avant le départ.</li>
-<li>Une activité originale entre amis aux couleurs d’ALCT ? Nous vous proposons un moment convivial et dynamique !</li>
-<li>Un après-midi culinaire en famille ? Faites voyager vos papilles grâce à des recettes inédites et devenez les rois des fourneaux pour quelques
-heures…</li>
-		    </ul>
-</br>
-<a href="contact.html">Confiez nous</a> l’organisation de votre événement ! Notre équipe ne manquera pas de mettre les petits plats dans les grands pour vous satisfaire. 
-		</div>
-	    </div>
-	    <div class="tile is-parent is-vertical">
-		<div class="tile is-child color3 box">
-		    <p class="title">NOS ÉVÉNEMENTS</br>
-		    À VENIR</p>
-		    <ul>
-<li>Notre équipe organise occasionnellement, sur inscription, des ateliers « made in ALCT » (after-works, rencontres, ateliers…)</li>
-<li>Pour connaître les dates des événements à venir, nous vous invitons à consulter <a href="https://www.facebook.com/alctvoyages/">notre page
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child color3 box">
+            <p class="title">NOS ÉVÉNEMENTS</br>
+              À VENIR</p>
+            <ul>
+              <li>Notre équipe organise occasionnellement, sur inscription, des ateliers « made in ALCT » (after-works, rencontres, ateliers…)</li>
+              <li>Pour connaître les dates des événements à venir, nous vous invitons à consulter <a href="https://www.facebook.com/alctvoyages/">notre page
 Facebook</a>.</li>
-<li>Revivez nos événements passés dans la rubrique <a href="actualites.html">actualités</a>.</li>
-		    </ul>
-		</div>
-		<div class="tile is-child box">
-		    <p class="columns is-centered">
-			<img class="imgevent" src="img/evenement/event.jpg"> 
-		    </p>
-		</div>
-	   </div>
-	</div>
-       </div>
-        <!--FOOTER-->
-        <footer class="footer1">
-                <a href="https://myrdin.me" target="_blank">Site Web : Myrdin</a> · <a href="#" target="_blank">Mentions Légales</a>
-        </footer>
+              <li>Revivez nos événements passés dans la rubrique <a href="actualites.html">actualités</a>.</li>
+            </ul>
+          </div>
+          <div class="tile is-child box">
+            <p class="columns is-centered">
+              <img class="imgevent" src="img/evenement/event.jpg">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer1">
+      <a href="https://myrdin.me" target="_blank">Site Web : Myrdin</a> · <a href="#" target="_blank">Mentions Légales</a>
+    </footer>
 
-    </body>
+</body>
 
 </html>

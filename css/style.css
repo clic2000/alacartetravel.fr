@@ -3,469 +3,483 @@
 /*Font*/
 
 @font-face {
-    font-family: 'JosefinSans-Light';
-    src: url('../font/JosefinSans-Light.ttf') format('truetype');
-}
-@font-face{
-    font-family: 'JosefinSans-Bold';
-    src: url('../font/JosefinSans-Bold.ttf') format('truetype');
-    
+  font-family: 'JosefinSans-Light';
+  src: url('../font/JosefinSans-Light.ttf') format('truetype');
 }
 
-.title{
-    font-family: 'JosefinSans-Light';
-    font-size: 140%;
-    padding-bottom: 15px;
+@font-face {
+  font-family: 'JosefinSans-Bold';
+  src: url('../font/JosefinSans-Bold.ttf') format('truetype');
+}
+
+.title {
+  font-family: 'JosefinSans-Light';
+  font-size: 140%;
+  padding-bottom: 15px;
 }
 
 /*Links*/
 
-
 li.is-active a {
-	font-family: 'JosefinSans-Bold';
-    }
+  font-family: 'JosefinSans-Bold';
+}
 
 .footer1 a {
-    color: grey;
+  color: grey;
 }
 
 a {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 /*Title*/
 
 .alct {
-    font-family: 'JosefinSans-Light';
-    font-size: 150%;
-    text-align: center;
-    background-color: white;
-    letter-spacing: 4px;
-    left: 0;
-    right: 0;
+  font-family: 'JosefinSans-Light';
+  font-size: 150%;
+  text-align: center;
+  background-color: white;
+  letter-spacing: 4px;
+  left: 0;
+  right: 0;
 }
 
 /*Menu*/
 
 .menu {
-    font-family: 'JosefinSans-Light';
-    left: 0;
-    right: 0;
-    background-color: white;
+  font-family: 'JosefinSans-Light';
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 
 .tabs li.is-active a {
-    border-bottom-color: #d76d8d;
-    color: grey;
+  border-bottom-color: #d76d8d;
+  color: grey;
 }
 
-.menu li{
-    padding: 0px 8px;
+.menu li {
+  padding: 0px 8px;
 }
 
 /*Footer*/
 
 footer {
-    font-family: 'JosefinSans-Light';
-    background-color: white;
-    position: fixed;
-    bottom: 0;
-    left:0;
-    right: 0;
-    font-size: 86%;
-    padding-top: 4px;
-    text-align: center;
-    }
-
+  font-family: 'JosefinSans-Light';
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 86%;
+  padding-top: 4px;
+  text-align: center;
+}
 
 /*Hidden*/
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 /*INDEX*/
 
 .menu_index {
-    top: 148px;
-    font-family: 'JosefinSans-Light';
-    padding-top: 48px;
-    padding: 0em;
-    left: 0;
-    right: 0;
-    background-color: white;
+  top: 148px;
+  font-family: 'JosefinSans-Light';
+  padding-top: 48px;
+  padding: 0em;
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 
 .menu_index li {
-    padding: 0px 8px;
+  padding: 0px 8px;
 }
 
 /*CONCEPT*/
 
 .picto {
-    width: 58px;
-    margin: 4%;
-    padding-top: 70px;
+  width: 58px;
+  margin: 4%;
+  padding-top: 70px;
 }
 
 .text {
-    text-align: center;
+  text-align: center;
 }
 
-li { 
-    display: list-item;
-    margin-left: 1em;
-    text-align: center;
-    padding-top: 8px;
+li {
+  display: list-item;
+  margin-left: 1em;
+  text-align: center;
+  padding-top: 8px;
 }
 
 #logoblack {
-    height: 360px;
+  height: 360px;
 }
 
 #imgconcept {
-    border-radius: 1%;
+  border-radius: 1%;
 }
 
 .concept {
-    opacity: 0.7;
-    padding-bottom: 40px;
+  opacity: 0.7;
+  padding-bottom: 40px;
 }
 
 .color1 {
-    background-color: #f1f7f8;
+  background-color: #f1f7f8;
 }
 
 .color2 {
-    background-color: #dae9ee;
+  background-color: #dae9ee;
 }
 
 .color3 {
-    background-color: #e7f1e6;
+  background-color: #e7f1e6;
 }
 
-
 .color4 {
-    background-color: #e4efe6;
+  background-color: #e4efe6;
 }
 
 /*DESTINATIONS*/
 
 .imgdestination:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .destination {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .titledest {
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    color: white;
-    background-color: black;
-    opacity: 0.4;
-    text-align: left;
-    padding: 2px 4px;
-    height: 24px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  color: white;
+  background-color: black;
+  opacity: 0.4;
+  text-align: left;
+  padding: 2px 4px;
+  height: 24px;
 }
 
 .boite {
-    position: relative;
+  position: relative;
 }
 
 .radius {
-    border-radius: 1.5%;
+  border-radius: 1.5%;
 }
 
 /*ACTUALITÉS*/
 
 .fb {
-    width: 500px;
-    margin: 0px auto;
+  width: 500px;
+  margin: 0px auto;
 }
 
 /*CONTACT*/
 
 #formulaire {
-    background-color: white;
-    border-radius: 5px;
-    padding: 28px;
-    margin: 20px auto;
-    width: 510px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 28px;
+  margin: 20px auto;
+  width: 510px;
 }
 
 .bgcontact {
-    position: inherit;
-    top:198px;
-    left: 0;
-    right: 0;
-    margin-bottom:26px;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/contact/contact.jpeg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+  position: inherit;
+  top: 198px;
+  left: 0;
+  right: 0;
+  margin-bottom: 26px;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/contact/contact.jpeg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*EUROPE*/
 
 .bgeurope {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/europe.jpeg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/europe.jpeg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*AFRIQUE*/
 
-.bgafrique  {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/afrique.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+.bgafrique {
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/afrique.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*AMERIQUE DU NORD*/
 
-.bgameriquenord  {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/ameriquenord.jpeg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+.bgameriquenord {
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/ameriquenord.jpeg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*AMERIQUE DU SUD*/
 
-.bgameriquesud  {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/ameriquesud.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+.bgameriquesud {
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/ameriquesud.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*ASIE*/
 
-.bgasie  {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+.bgasie {
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
 
 /*OCEANIE*/
 
-.bgoceanie  {
-    position: fixed;
-    top:198px;
-    left: 0;
-    right: 0;
-    width: 1400px;
-    height: 600px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    background: url(../img/destinations/grand/oceanie.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+.bgoceanie {
+  position: fixed;
+  top: 198px;
+  left: 0;
+  right: 0;
+  width: 1400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../img/destinations/grand/oceanie.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
 }
+
 .continent {
-    font-family: 'JosefinSans-Light';
-    font-size: 280%;
-    font-weight: 900;
-    position: absolute;
-    left: 2%;
-    top: 2%;
+  font-family: 'JosefinSans-Light';
+  font-size: 280%;
+  font-weight: 900;
+  position: absolute;
+  left: 2%;
+  top: 2%;
 }
+
 .patience {
-    position: absolute;
-    left: 2%;
-    top: 12%;
+  position: absolute;
+  left: 2%;
+  top: 12%;
 }
 
 .continentwhite {
-    font-family: 'JosefinSans-Light';
-    color: white;
-    font-size: 280%;
-    font-weight: 900;
-    position: absolute;
-    left: 2%;
-    top: 2%;
+  font-family: 'JosefinSans-Light';
+  color: white;
+  font-size: 280%;
+  font-weight: 900;
+  position: absolute;
+  left: 2%;
+  top: 2%;
 }
-.patiencewhite{
-    color: white;
-    position: absolute;
-    left: 2%;
-    top: 12%;
+
+.patiencewhite {
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 12%;
 }
 
 /*EVENEMENTIEL*/
 
 .evenement {
-    padding-bottom:40px;
-    opacity: 0.7;
+  padding-bottom: 40px;
+  opacity: 0.7;
 }
 
 .imgevent {
-    border-radius:1%;
+  border-radius: 1%;
 }
 
 .conteneur {
-    display: flex;
+  display: flex;
 }
 
 /*GARANTIES*/
 
 .garanties {
-    padding-bottom:40px;
-    text-align: justify;
-    opacity:0.7;
+  padding-bottom: 40px;
+  text-align: justify;
+  opacity: 0.7;
 }
 
 .garanties li {
-    text-align: left;
+  text-align: left;
 }
 
 /*PRODUITS*/
 
 .vignette {
-    margin: 10px 70px;
+  margin: 10px 70px;
 }
 
 .color-title {
-    color: rgb(177, 219, 207);
+  color: rgb(177, 219, 207);
 }
 
 .circle {
-    border: 1px;
-    border-radius: 50%;
-    height:180px;
-    width:180px;
-    margin-left: 100px;
-    margin-top: 50px;
+  border: 1px;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .circle p {
-    position: relative;
-    top: 45px;
-    font-size: 110%;
+  position: relative;
+  top: 45px;
+  font-size: 110%;
 }
 
 .circle2 {
-    border: 1px;
-    background-color:  rgb(177, 219, 207, 0.7);
-    border-radius: 50%;
-    height:80px;
-    width:80px;
-    margin:-65px 0px 0px 220px;
+  border: 1px;
+  background-color: rgb(177, 219, 207, 0.7);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: -65px 0px 0px 220px;
 }
 
 .circle2 p {
-    position: relative;
-    font-size: 80%;
-    top:8px;
+  position: relative;
+  font-size: 80%;
+  top: 8px;
 }
 
 .circle3 {
-    border: 1px;
-    border-radius: 50%;
-    height: 210px;
-    width: 210px;
+  border: 1px;
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
 }
 
 .circle3 p {
-    position: relative;
-    top: 68px;
-    padding: 12px;
-    margin-top: 70px;
-    font-size: 80%;
+  position: relative;
+  top: 68px;
+  padding: 12px;
+  margin-top: 70px;
+  font-size: 80%;
 }
 
 .circle4 {
-    border: 1px;
-    border-radius: 50%;
-    height:180px;
-    width: 180px;
-    background-color: rgb(231, 241, 230, 0.7);
-    margin: -200px 0px 0px 160px;
+  border: 1px;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  background-color: rgb(231, 241, 230, 0.7);
+  margin: -200px 0px 0px 160px;
 }
 
 .circle4 p {
-    position: relative;
-    top: 60px;
+  position: relative;
+  top: 60px;
 }
 
 .circle5 {
-    border: 1px;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(228, 239, 230, 0.7);
-    margin: -130px 0px 0px 190px;
+  border: 1px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(228, 239, 230, 0.7);
+  margin: -130px 0px 0px 190px;
 }
 
 .circle5 p {
-    position: relative;
-    top: 19px;
+  position: relative;
+  top: 19px;
 }
 
 .cadre-produit {
-    text-align: left;
-    margin: 60px 12px;
-    padding: 20px;
+  text-align: left;
+  margin: 60px 12px;
+  padding: 20px;
 }
 
 .prix {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 #note {
-    font-size: 90%;
-    margin-bottom: 30px;
-    text-align: center;
+  font-size: 90%;
+  margin-bottom: 30px;
+  text-align: center;
 }
