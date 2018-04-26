@@ -186,22 +186,22 @@ li {
 
 /*CONTACT*/
 
-#formulaire {
+.formulaire {
   background-color: white;
   border-radius: 5px;
   padding: 28px;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 510px;
+  position: relative;
 }
 
 .bgcontact {
-  position: inherit;
-  top: 198px;
   left: 0;
   right: 0;
-  margin-bottom: 26px;
+  padding: 10px;
+  margin-bottom: 30px;
   width: 1400px;
-  height: 600px;
+  height: auto;
   border-radius: 25px;
   margin-right: auto;
   margin-left: auto;
