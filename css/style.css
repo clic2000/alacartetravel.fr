@@ -412,7 +412,7 @@ li {
 
 .circle2 {
   border: 1px;
-  background-color: rgb(177, 219, 207, 0.7);
+  background-color: rgba(177, 219, 207, .7);
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -445,7 +445,7 @@ li {
   border-radius: 50%;
   height: 180px;
   width: 180px;
-  background-color: rgb(231, 241, 230, 0.7);
+  background-color: rgba(231, 241, 230, .7);
   margin: -200px 0px 0px 160px;
 }
 
@@ -459,7 +459,7 @@ li {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background-color: rgb(228, 239, 230, 0.7);
+  background-color: rgba(228, 239, 230, .7);
   margin: -130px 0px 0px 190px;
 }
 
