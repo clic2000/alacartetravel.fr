@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: 'JosefinSans-Bold';
-  src: url('../font/JosefinSans-Bold.ttf') format('truetype');
+  font-family: 'JosefinSans-Regular';
+  src: url('../font/JosefinSans-Regular.ttf') format('truetype');
 }
 
 .title {
@@ -21,7 +21,7 @@
 /*Links*/
 
 li.is-active a {
-  font-family: 'JosefinSans-Bold';
+  font-family: 'JosefinSans-Regular';
 }
 
 .footer1 a {
