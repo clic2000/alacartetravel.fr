@@ -27,6 +27,10 @@ body {
     font-family: 'JosefinSans-Regular';
 }
 
+.formfont {
+    font-size: 80%;
+}
+
 /*Links*/
 
 li.is-active a {
@@ -79,7 +83,7 @@ footer {
   font-size: 76%;
   padding-top: 4px;
   padding-bottom: 2px;
-  text-align: center;
+  text-align: center;/
 }
 
 footer  a {
@@ -199,7 +203,7 @@ li {
   border-radius: 5px;
   padding: 28px;
   margin: 10px auto;
-  width: 510px;
+  width: 680px;
   position: relative;
 }
 
@@ -438,11 +442,13 @@ li {
   border-radius: 50%;
   height: 210px;
   width: 210px;
+  margin-top: -30px;
+  margin-left: 23px;
 }
 
 .circle3 p {
   position: relative;
-  top: 68px;
+  top: 65px;
   padding: 12px;
   margin-top: 70px;
   font-size: 80%;
@@ -451,15 +457,16 @@ li {
 .circle4 {
   border: 1px;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 170px;
+  width: 170px;
   background-color: rgba(231, 241, 230, .7);
-  margin: -200px 0px 0px 160px;
+  margin: -190px 0px 0px 160px;
+  font-size: 110%;
 }
 
 .circle4 p {
   position: relative;
-  top: 60px;
+  top: 34px;
 }
 
 .circle5 {
@@ -468,7 +475,7 @@ li {
   height: 100px;
   width: 100px;
   background-color: rgba(228, 239, 230, .7);
-  margin: -130px 0px 0px 190px;
+  margin: -120px 0px 0px 190px;
 }
 
 .circle5 p {
@@ -480,6 +487,10 @@ li {
   text-align: left;
   margin: 60px 12px;
   padding: 20px;
+}
+
+.product {
+    padding: 60px 20px;
 }
 
 .prix {
