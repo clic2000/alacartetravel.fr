@@ -23,6 +23,10 @@ body {
   padding-bottom: 0px;
 }
 
+.regular {
+    font-family: 'JosefinSans-Regular';
+}
+
 /*Links*/
 
 li.is-active a {
@@ -108,7 +112,7 @@ footer  a {
 
 .picto {
   width: 58px;
-  margin: 4%;
+  margin: 6%;
   padding-top: 50px;
 }
 
@@ -186,13 +190,6 @@ li {
 
 .radius {
   border-radius: 5px;
-}
-
-/*ACTUALITÉS*/
-
-.fb {
-  width: 500px;
-  margin: 0px auto 50px auto;
 }
 
 /*CONTACT*/
