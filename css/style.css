@@ -42,6 +42,13 @@ a {
   font-weight: bold;
 }
 
+/*General*/
+
+.logo {
+  width: 190px;
+  height: auto;
+}
+
 /*Title*/
 
 .alct {
@@ -133,7 +140,7 @@ li {
 
 .concept {
   opacity: 0.7;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 .baseline {
@@ -399,6 +406,10 @@ li {
 
 /*PRODUITS*/
 
+.pink {
+  color: pink;
+}
+
 .vignette {
   margin: 10px 70px;
 }
@@ -418,13 +429,13 @@ li {
 
 .circle p {
   position: relative;
-  top: 45px;
+  top: 35px;
   font-size: 110%;
 }
 
 .circle2 {
   border: 1px;
-  background-color: rgba(177, 219, 207, .7);
+  background-color: rgba(200, 227, 205, .7);
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -434,7 +445,7 @@ li {
 .circle2 p {
   position: relative;
   font-size: 80%;
-  top: 8px;
+  top: 4px;
 }
 
 .circle3 {
@@ -459,7 +470,7 @@ li {
   border-radius: 50%;
   height: 170px;
   width: 170px;
-  background-color: rgba(231, 241, 230, .7);
+  background-color: rgba(200, 227, 205, .7);
   margin: -190px 0px 0px 160px;
   font-size: 110%;
 }
@@ -474,7 +485,7 @@ li {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background-color: rgba(228, 239, 230, .7);
+  background-color: rgba(235, 244, 235, .7);
   margin: -120px 0px 0px 190px;
 }
 
@@ -495,12 +506,20 @@ li {
 
 .prix {
   font-size: 80%;
+  padding: 20px;
+  margin: 10px;
 }
 
 #note {
-  font-size: 90%;
+  font-size: 80%;
   margin-bottom: 30px;
-  text-align: center;
+}
+
+.box1 {
+  border-width: 0.8px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: grey;
 }
 
 /*Center*/
