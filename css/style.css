@@ -176,11 +176,15 @@ li {
 /*DESTINATIONS*/
 .destination {
   padding-bottom: 30px;
-  margin: 20px;
+  margin: 10px 80px;
 }
 
 .imgdestination:hover {
   opacity: 0.5;
+}
+
+.imgdestination2 {
+  z-index:1;
 }
 
 .lienpays {
@@ -189,29 +193,24 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
+  z-index: 3;
 }
 
 .lienpays p {
   font-weight: bolder;
   font-size: 140%;
   text-align: center;
-  opacity: 1;
+  transition: all 1s;
 }
-
-.imgdestination2 img:hover{
-  opacity: 0.5;
-}
-
-.lienpays:hover img {
-  opacity: 0.5;
-}
-
-.imgdestination2:hover .lienpays {
-  color: black;
+.boite:hover .lienpays {
   opacity: 1;
   transition: all 1s;
 }
 
+.boite:hover .bgimg{
+  opacity: 0.5;
+  transition: all 1s;
+}
 
 .titledest {
   opacity: 1;
