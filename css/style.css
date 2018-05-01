@@ -174,24 +174,24 @@ li {
 }
 
 /*DESTINATIONS*/
+.destination {
+  padding-bottom: 30px;
+  margin: 20px;
+}
 
 .imgdestination:hover {
   opacity: 0.5;
 }
 
-.destination {
-  padding-bottom: 30px;
-}
-
 .titledest {
   position: absolute;
-  top: 10px;
-  left: 0px;
+  top: 30px;
+  left: 13px;
   color: white;
   background-color: black;
   opacity: 0.4;
   text-align: left;
-  padding: 2px 4px;
+  padding: 3px 4px;
   height: 24px;
 }
 
