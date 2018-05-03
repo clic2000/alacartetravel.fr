@@ -183,9 +183,7 @@ li {
   opacity: 0.5;
 }
 
-.imgdestination2 {
-  z-index:1;
-}
+/*DESTINATIONS 2*/
 
 .lienpays {
   position: absolute;
@@ -197,7 +195,7 @@ li {
 }
 
 .lienpays p {
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   font-size: 140%;
   text-align: center;
   transition: all 1s;
