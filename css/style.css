@@ -206,7 +206,7 @@ li {
 }
 
 .boite:hover .bgimg{
-  opacity: 0.5;
+  opacity: 0.2;
   transition: all 1s;
 }
 
