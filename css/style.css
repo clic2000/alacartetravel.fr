@@ -13,8 +13,8 @@
 }
 
 body {
-    font-family: 'JosefinSans-Light';
-    font-size: 122%;
+  font-family: 'JosefinSans-Light';
+  font-size: 122%;
 }
 
 .title {
@@ -24,11 +24,11 @@ body {
 }
 
 .regular {
-    font-family: 'JosefinSans-Regular';
+  font-family: 'JosefinSans-Regular';
 }
 
 .formfont {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 /*Links*/
@@ -90,11 +90,12 @@ footer {
   font-size: 76%;
   padding-top: 4px;
   padding-bottom: 2px;
-  text-align: center;/
+  text-align: center;
+  /
 }
 
-footer  a {
-    color: grey;
+footer a {
+  color: grey;
 }
 
 /*Hidden*/
@@ -144,17 +145,17 @@ li {
 }
 
 .baseline {
-    padding-left: 0;
-    padding-bottom: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
 }
 
 .noborder {
-    padding: 0;
+  padding: 0;
 }
 
 .who {
-    padding-left: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 .color1 {
@@ -174,6 +175,7 @@ li {
 }
 
 /*DESTINATIONS*/
+
 .destination {
   padding-bottom: 30px;
   margin: 10px 80px;
@@ -200,12 +202,13 @@ li {
   text-align: center;
   transition: all 1s;
 }
+
 .boite:hover .lienpays {
   opacity: 1;
   transition: all 1s;
 }
 
-.boite:hover .bgimg{
+.boite:hover .bgimg {
   opacity: 0.2;
   transition: all 1s;
 }
@@ -405,9 +408,8 @@ li {
 }
 
 .sud {
-  margin-top:10%;
+  margin-top: 10%;
 }
-
 
 /*EVENEMENTIEL*/
 
@@ -533,7 +535,7 @@ li {
 }
 
 .product {
-    padding: 60px 20px;
+  padding: 60px 20px;
 }
 
 .prix {
