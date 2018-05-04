@@ -237,7 +237,7 @@ li {
   border-radius: 5px;
   padding: 28px;
   margin: 10px auto;
-  width: 680px;
+  /*width: 50%;*/
   position: relative;
 }
 
@@ -337,16 +337,15 @@ li {
 /*ASIE*/
 
 .bgasie {
-  position: fixed;
-  top: 198px;
   left: 0;
   right: 0;
-  width: 1400px;
-  height: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 1900px;
+  height: 710px;
   border-radius: 25px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 35px;
   background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   /* pour anciens Chrome et Safari */
