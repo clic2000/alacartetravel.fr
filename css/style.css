@@ -1,15 +1,15 @@
 /*GENERAL*/
 
-/*Font*/
+/*font*/
 
 @font-face {
   font-family: 'JosefinSans-Light';
-  src: url('../font/JosefinSans-Light.ttf') format('truetype');
+  src: url('../fonts/JosefinSans-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'JosefinSans-Regular';
-  src: url('../font/JosefinSans-Regular.ttf') format('truetype');
+  src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
 }
 
 body {
@@ -211,13 +211,12 @@ li {
 }
 
 .titledest {
-  opacity: 1;
   position: absolute;
   top: 30px;
   left: 13px;
   color: white;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.6;
   text-align: left;
   padding: 3px 4px;
   height: 24px;
@@ -343,10 +342,11 @@ li {
   left: 0;
   right: 0;
   width: 1400px;
-  height: 600px;
+  height: auto;
   border-radius: 25px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 35px;
   background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   /* pour anciens Chrome et Safari */
@@ -404,6 +404,11 @@ li {
   left: 2%;
   top: 12%;
 }
+
+.sud {
+  margin-top:10%;
+}
+
 
 /*EVENEMENTIEL*/
 
