@@ -37,7 +37,12 @@ li.is-active a {
   font-family: 'JosefinSans-Regular';
 }
 
+ul a {
+  font-family: 'JosefinSans-Light';
+}
+
 a {
+  font-family: 'JosefinSans-Regular';
   color: grey;
   font-weight: bold;
 }
@@ -92,7 +97,6 @@ footer {
   padding-top: 4px;
   padding-bottom: 2px;
   text-align: center;
-  /
 }
 
 footer a {
@@ -110,7 +114,6 @@ footer a {
 .menu_index {
   top: 148px;
   font-family: 'JosefinSans-Light';
-  padding-top: 48px;
   padding: 0em;
   left: 0;
   right: 0;
@@ -125,8 +128,7 @@ footer a {
 
 .picto {
   width: 58px;
-  margin: 6%;
-  padding-top: 50px;
+  margin: 17% 8%;
 }
 
 .text {
@@ -262,81 +264,7 @@ li {
   /* version standardisée */
 }
 
-/*EUROPE*/
 
-.bgeurope {
-  position: fixed;
-  top: 198px;
-  left: 0;
-  right: 0;
-  width: 1400px;
-  height: 600px;
-  border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url(../img/destinations/grand/europe.jpeg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  /* pour anciens Chrome et Safari */
-  background-size: cover;
-  /* version standardisée */
-}
-
-/*AFRIQUE*/
-
-.bgafrique {
-  position: fixed;
-  top: 198px;
-  left: 0;
-  right: 0;
-  width: 1400px;
-  height: 600px;
-  border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url(../img/destinations/grand/afrique.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  /* pour anciens Chrome et Safari */
-  background-size: cover;
-  /* version standardisée */
-}
-
-/*AMERIQUE DU NORD*/
-
-.bgameriquenord {
-  position: fixed;
-  top: 198px;
-  left: 0;
-  right: 0;
-  width: 1400px;
-  height: 600px;
-  border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url(../img/destinations/grand/ameriquenord.jpeg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  /* pour anciens Chrome et Safari */
-  background-size: cover;
-  /* version standardisée */
-}
-
-/*AMERIQUE DU SUD*/
-
-.bgameriquesud {
-  position: fixed;
-  top: 198px;
-  left: 0;
-  right: 0;
-  width: 1400px;
-  height: 600px;
-  border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url(../img/destinations/grand/ameriquesud.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  /* pour anciens Chrome et Safari */
-  background-size: cover;
-  /* version standardisée */
-}
 
 /*ASIE*/
 
@@ -351,25 +279,6 @@ li {
   margin-right: auto;
   margin-left: auto;
   background: url(../img/destinations/grand/asie.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  /* pour anciens Chrome et Safari */
-  background-size: cover;
-  /* version standardisée */
-}
-
-/*OCEANIE*/
-
-.bgoceanie {
-  position: fixed;
-  top: 198px;
-  left: 0;
-  right: 0;
-  width: 1400px;
-  height: 600px;
-  border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url(../img/destinations/grand/oceanie.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   /* pour anciens Chrome et Safari */
   background-size: cover;
