@@ -280,6 +280,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 
 }
 
+#bgquebec {
+  background: url(../img/destinations/quebec.jpg) no-repeat center fixed;
+}
+
 /*ASIE*/
 
 #bgasie {
