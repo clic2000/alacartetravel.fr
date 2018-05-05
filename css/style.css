@@ -284,6 +284,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/quebec.jpg) no-repeat center fixed;
 }
 
+#bglondres {
+  background: url(../img/destinations/londres.jpg) no-repeat center fixed;
+}
+
 /*ASIE*/
 
 #bgasie {
@@ -322,6 +326,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   top: 12%;
 }
 
+  
 .continentwhite {
   font-family: 'JosefinSans-Light';
   color: white;
