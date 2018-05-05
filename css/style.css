@@ -288,6 +288,13 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/londres.jpg) no-repeat center fixed;
 }
 
+.boite2 {
+  padding: 2px;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
 /*ASIE*/
 
 #bgasie {
@@ -315,31 +322,31 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   font-family: 'JosefinSans-Light';
   font-size: 280%;
   font-weight: 900;
-  position: absolute;
+  position: relative;
   left: 2%;
   top: 2%;
 }
 
 .patience {
-  position: absolute;
+  position: relative;
   left: 2%;
   top: 12%;
 }
 
-  
+
 .continentwhite {
   font-family: 'JosefinSans-Light';
   color: white;
   font-size: 280%;
   font-weight: 900;
-  position: absolute;
+  position: relative;
   left: 2%;
   top: 2%;
 }
 
 .patiencewhite {
   color: white;
-  position: absolute;
+  position: relative;
   left: 2%;
   top: 12%;
 }
