@@ -270,6 +270,11 @@ li {
 background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
+#bgcoteouest {
+  background: url(../img/destinations/cote-ouest.jpg) no-repeat center fixed;
+
+}
+
 /*ASIE*/
 
 #bgasie {
