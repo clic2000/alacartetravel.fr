@@ -264,11 +264,20 @@ li {
   /* version standardisée */
 }
 
+/*Produits en attente*/
 
+#bgny {
+background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
+}
 
 /*ASIE*/
 
-.bgasie {
+#bgasie {
+  background: url(../img/destinations/asie-produit.jpg) no-repeat center fixed;
+
+}
+
+.bgproduct {
   left: 0;
   right: 0;
   padding: 10px;
@@ -278,7 +287,6 @@ li {
   border-radius: 25px;
   margin-right: auto;
   margin-left: auto;
-  background: url(../img/destinations/asie-produit.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   /* pour anciens Chrome et Safari */
   background-size: cover;
