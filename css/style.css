@@ -311,6 +311,15 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 #bgmarseille {
   background: url(../img/destinations/marseille.jpg) no-repeat center fixed;
 }
+
+#bgrome {
+  background: url(../img/destinations/italie.jpg) no-repeat center fixed;
+}
+
+#bglisbonne {
+  background: url(../img/destinations/lisbonne.jpg) no-repeat center fixed;
+}
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
