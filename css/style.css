@@ -329,7 +329,11 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 #bgargentine{
-  background: url(../img/destinations/argentinegd.jpg) no-repeat center fixed;
+  background: url(../img/destinations/argentine.jpg) no-repeat center fixed;
+}
+
+#bgbresil{
+  background: url(../img/destinations/bresil.jpg) no-repeat center fixed;
 }
 
 .boite2 {
