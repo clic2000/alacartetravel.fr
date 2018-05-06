@@ -99,6 +99,7 @@ footer {
   text-align: center;
 }
 
+
 footer a {
   color: grey;
 }
@@ -496,6 +497,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   width: 210px;
   margin-top: -30px;
   margin-left: 23px;
+  margin-bottom: 50px;
 }
 
 .circle3 p {
@@ -542,13 +544,13 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .product {
-  padding: 90px 20px;
+  padding: 70px 20px;
 }
 
 .prix {
   font-size: 80%;
   padding: 20px;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 #note {
@@ -562,6 +564,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   border-radius: 5px;
   border-color: grey;
 }
+
 
 /*Center*/
 
