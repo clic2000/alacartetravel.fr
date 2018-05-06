@@ -308,6 +308,9 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/lyon.jpg) no-repeat center fixed;
 }
 
+#bgmarseille {
+  background: url(../img/destinations/marseille.jpg) no-repeat center fixed;
+}
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
