@@ -292,6 +292,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/barcelone.jpg) no-repeat center fixed;
 }
 
+#bggerone {
+  background: url(../img/destinations/gerone.jpg) no-repeat center fixed;
+}
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
