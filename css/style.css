@@ -336,6 +336,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/bresil.jpg) no-repeat center fixed;
 }
 
+#bgchili{
+  background: url(../img/destinations/chili.jpg) no-repeat center fixed;
+}
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
