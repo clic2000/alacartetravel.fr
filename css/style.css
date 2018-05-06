@@ -344,6 +344,9 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/marrakech.jpg) no-repeat center fixed;
 }
 
+#bgaustralie{
+  background: url(../img/destinations/australie.jpg) no-repeat center fixed;
+}
 
 .boite2 {
   padding: 2px;
