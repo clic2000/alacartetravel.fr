@@ -340,6 +340,11 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/chili.jpg) no-repeat center fixed;
 }
 
+#bgmarrakech{
+  background: url(../img/destinations/marrakech.jpg) no-repeat center fixed;
+}
+
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
