@@ -304,6 +304,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/bretagne.jpg) no-repeat center fixed;
 }
 
+#bglyon {
+  background: url(../img/destinations/lyon.jpg) no-repeat center fixed;
+}
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
