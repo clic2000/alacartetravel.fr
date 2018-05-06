@@ -324,6 +324,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/prague.jpg) no-repeat center fixed;
 }
 
+#bgstockholm{
+  background: url(../img/destinations/stockholm.jpg) no-repeat center fixed;
+}
+
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
