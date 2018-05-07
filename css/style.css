@@ -456,6 +456,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   margin-top: -22px;
 }
 
+.lesplus {
+  padding-bottom: 10px;
+}
+
 .prixind {
 padding-top: 10px;
 }
