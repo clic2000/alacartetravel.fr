@@ -453,7 +453,11 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .haut {
-  margin-top: -50px;
+  margin-top: -22px;
+}
+
+.prixind {
+padding-top: 20px;
 }
 
 .color-title {
