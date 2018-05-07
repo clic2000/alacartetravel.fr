@@ -2,3 +2,48 @@ function toggleModal() {
     var element = document.getElementsByClassName("modal")[0];
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownAng() {
+    var element = document.getElementById("ang");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownEsp() {
+    var element = document.getElementById("esp");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownFr() {
+    var element = document.getElementById("fr");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownHon() {
+    var element = document.getElementById("hon");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownIrl() {
+    var element = document.getElementById("irl");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownIt() {
+    var element = document.getElementById("it");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownPor() {
+    var element = document.getElementById("por");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownRep() {
+    var element = document.getElementById("rep");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownSu() {
+    var element = document.getElementById("su");
+    element.classList.toggle("is-active");
+}
