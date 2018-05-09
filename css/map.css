@@ -1,3 +1,21 @@
+/*Mobile map*/
+
+.mapmob {
+  width: 100%;
+  padding: Opx 2px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  stroke: #fff;
+  stroke-width: 1px;
+  border: none;
+}
+
+.mapmob path:hover {
+  fill: #E7EFE8;
+}
+
+
 .map {
   width: 62%;
   padding: Opx 2px;
