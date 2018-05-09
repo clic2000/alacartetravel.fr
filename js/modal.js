@@ -77,3 +77,13 @@ function toggleDropdownAfr() {
     var element = document.getElementById("afr");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownNz() {
+    var element = document.getElementById("nz");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownAus() {
+    var element = document.getElementById("aus");
+    element.classList.toggle("is-active");
+}
