@@ -57,3 +57,18 @@ function toggleDropdownCa() {
     var element = document.getElementById("ca");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownBre() {
+    var element = document.getElementById("bre");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownAr() {
+    var element = document.getElementById("ar");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownChi() {
+    var element = document.getElementById("chi");
+    element.classList.toggle("is-active");
+}

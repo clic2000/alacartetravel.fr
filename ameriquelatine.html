@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Destinations</title>
-  <meta name="description" content="Des destinations testées et approuvées à travers le monde." />
+  <title>Amérique Latine</title>
+  <meta name="description" content="Profitez d'un long week-end pour visiter une ville d'Europe." />
   <!--LINKS TO CSS-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
@@ -86,33 +86,106 @@
       </li>
     </ul>
   </div>
-  <div class="hidden destination">
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="ameriquedunord.html"><img src="img/destinations/ameriquenord.jpg" class="radius" alt="destination amérique du nord"/>
-          <p class="text titledest title">AMÉRIQUE DU NORD</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="europe.html"><img src="img/destinations/europe.jpg" class="radius" alt="destination europe"/>
-          <p class="text title titledest">EUROPE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="asie.html"><img src="img/destinations/asie.jpg" class="radius" alt="destination asie"/>
-          <p class="text title titledest">ASIE</p></a>
-      </div>
+  <div class="hidden">
+    <!-- Touch -->
+    <div class="is-hidden-desktop">
+      <div class="columns">
+        <div class="column">
+          <div class="boite3">
+            <div class="dropdown bouton" id="ar">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownAr(); return false;">
+                <span>ARGENTINE</span>
+                <span class="icon is-small">
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="argentine.html" class="dropdown-item">
+              ARGENTINE
+                </a>
+                </div>
+              </div>
+            </div>
+            <img src="img/destinations/argentine.jpg" class="radius bgimg" alt="destination argentine" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="boite3">
+            <div class="dropdown bouton" id="bre">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownBre(); return false;">
+      <span>BRÉSIL</span>
+      <span class="icon is-small">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+    </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="bresil.html" class="dropdown-item">
+              BRÉSIL
+            </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/destinations/bresil.jpg" class="radius bgimg" alt="destination brésil" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="boite3">
+            <div class="dropdown bouton" id="chi">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownChi(); return false;">
+      <span>CHILI</span>
+      <span class="icon is-small">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+    </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="chili.html" class="dropdown-item">
+              CHILI
+            </a>
+                </div>
+              </div>
+            </div>
+            <img src="img/destinations/chili.jpg" class="radius bgimg" alt="destination chili" />
+          </div>
+        </div>
     </div>
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="ameriquelatine.html"><img src="img/destinations/ameriquesud.jpg" class="radius" alt="destination amérique latine"/>
-          <p class="text title titledest">AMÉRIQUE LATINE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="afrique.html"><img src="img/destinations/afrique.jpg" class="radius" alt="destination afrique"/>
-          <p class="text title titledest">AFRIQUE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="oceanie.html"><img src="img/destinations/oceanie.jpg" class="radius" alt="destination asie"/>
-          <p class="text title titledest">OCÉANIE</p></a>
+  </div>
+  <!-- Desktop -->
+  <div class="destination">
+    <div class="is-hidden-touch">
+      <div class="columns sud">
+
+        <div class="column boite">
+          <div class="lienpays">
+            <p>
+              <a href="argentine.html">ARGENTINE</a></p>
+          </div>
+          <img src="img/destinations/argentine.jpg" class="radius bgimg" alt="destination argentine" />
+          <p class="text titledest title">ARGENTINE</p>
+        </div>
+        <div class="column boite">
+          <div class="lienpays">
+            <p><a href="bresil.html">BRÉSIL</a></p>
+          </div>
+          <img src="img/destinations/bresil.jpg" class="radius bgimg" alt="destination brésil" />
+          <p class="text title titledest">BRÉSIL</p>
+        </div>
+        <div class="column boite">
+          <div class="lienpays">
+            <p><a href="chili.html">CHILI</a></p>
+          </div>
+          <img src="img/destinations/chili.jpg" class="radius bgimg" alt="destination chili" />
+          <p class="text title titledest">CHILI</p>
+        </div>
       </div>
     </div>
   </div>
@@ -151,6 +224,7 @@
         <button class="button color2 center" onclick="toggleModal(); return false;">J'ai compris.</button>
       </div>
     </div>
+  </div>
   </div>
 
 </body>
