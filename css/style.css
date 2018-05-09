@@ -213,7 +213,6 @@ li {
 }
 
 .lienpays p {
-  /*font-weight: bolder;*/
   font-size: 130%;
   text-align: center;
   transition: all 1s;
@@ -401,6 +400,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   position: relative;
   left: 2%;
   top: 2%;
+  word-break: break-all;
 }
 
 .patience {

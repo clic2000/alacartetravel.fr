@@ -72,3 +72,8 @@ function toggleDropdownChi() {
     var element = document.getElementById("chi");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownAfr() {
+    var element = document.getElementById("afr");
+    element.classList.toggle("is-active");
+}
