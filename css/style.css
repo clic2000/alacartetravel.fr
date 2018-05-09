@@ -189,6 +189,17 @@ li {
   opacity: 0.5;
 }
 
+.bouton {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding-top: 1em;
+}
+
+.boite3 {
+  position: relative;
+}
+
 /*DESTINATIONS 2*/
 
 .lienpays {
@@ -392,24 +403,6 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .patience {
-  position: relative;
-  left: 2%;
-  top: 12%;
-}
-
-
-.continentwhite {
-  font-family: 'JosefinSans-Light';
-  color: white;
-  font-size: 280%;
-  font-weight: 900;
-  position: relative;
-  left: 2%;
-  top: 2%;
-}
-
-.patiencewhite {
-  color: white;
   position: relative;
   left: 2%;
   top: 12%;
