@@ -194,6 +194,7 @@ li {
   left: 50%;
   transform: translate(-50%);
   padding-top: 1em;
+  z-index: 3;
 }
 
 .boite3 {

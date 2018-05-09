@@ -47,3 +47,13 @@ function toggleDropdownSu() {
     var element = document.getElementById("su");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownEu() {
+    var element = document.getElementById("eu");
+    element.classList.toggle("is-active");
+}
+
+function toggleDropdownCa() {
+    var element = document.getElementById("ca");
+    element.classList.toggle("is-active");
+}
