@@ -24,6 +24,28 @@
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
+
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'https://alacartetravel.fr/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', 'd046b28a3e3fa0f045b3e8511fd11341']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+
+    (function() {
+      var _owa = document.createElement('script');
+      _owa.type = 'text/javascript';
+      _owa.async = true;
+      owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl);
+      _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+      var _owa_s = document.getElementsByTagName('script')[0];
+      _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+  </script>
+  <!-- End Open
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -90,7 +112,7 @@
     <h1 class="title is-1 color-title">
         PORTO, l'intrépide
 	    </h1>
-      <br>
+    <br>
   </div>
   <div class="box1 column is-offset-one-quarter is-half">
     <div class="content has-text-centered">
@@ -122,7 +144,9 @@
       <div class="column is-narrow">
         <div class="circle color2 content has-text-centered">
           <p>Prix indicatif de :<br>
-            <strong class="is-size-2">540 €</strong><br> <div class="prixind">par personne<a href="#note">*</a></div></p>
+            <strong class="is-size-2">540 €</strong><br>
+            <div class="prixind">par personne<a href="#note">*</a></div>
+          </p>
         </div>
         <div class="circle2">
           <div class="content has-text-centered">
@@ -132,10 +156,9 @@
         </div>
       </div>
       <div class="column box1 cadre-produit">
-        <p class="has-text-left"><div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
-          - Admirer des monuments incontournables<br>
-          - Arpenter des lieux authentiques<br>
-          - Apprécier des saveurs <i>com muito gusto</i>
+        <p class="has-text-left">
+          <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
+          - Admirer des monuments incontournables<br> - Arpenter des lieux authentiques<br> - Apprécier des saveurs <i>com muito gusto</i>
         </p>
       </div>
     </div>
@@ -146,57 +169,38 @@
         <div class="box1 product">
           <h3 class="has-text-centered title">Programme résumé du séjour</h3>
           <p><strong>Jour 1</strong> : Porto - Ribeira</p>
-          <p>Commencez votre séjour, en milieu d’après-midi, par une balade découverte dans l’un des quartiers les plus colorés de la ville : Ribeira.<br>
-            Au dîner, goûtez une cuisine de tradition portugaise en toute simplicité et avec convivialité. Puis, rejoignez votre hôtel*** tout confort et chaleureux au coeur de ce quartier trépidant.
+          <p>Commencez votre séjour, en milieu d’après-midi, par une balade découverte dans l’un des quartiers les plus colorés de la ville : Ribeira.<br> Au dîner, goûtez une cuisine de tradition portugaise en toute simplicité et avec convivialité. Puis,
+            rejoignez votre hôtel*** tout confort et chaleureux au coeur de ce quartier trépidant.
           </p>
           <br>
           <p><strong>Jour 2</strong> : Porto - À l’embouchure du Douro</p>
           <p>
-            Le matin, émerveillez-vous en poussant les portes du Palais de la Bourse avant de longer le fleuve vers l’Atlantique. <br>
-            Déjeunez librement et prenez de la hauteur dans un jardin propice à la rêverie. <br>
-            Regagnez le centre de Porto et découvrez une place moderne entourée de monuments traditionnels.<br>
-            En fin de journée, admirez la ville depuis le sommet d’un symbole portuan.<br>
-            Le soir, régalez-vous avec des saveurs typiques sublimées.
+            Le matin, émerveillez-vous en poussant les portes du Palais de la Bourse avant de longer le fleuve vers l’Atlantique. <br> Déjeunez librement et prenez de la hauteur dans un jardin propice à la rêverie. <br> Regagnez le centre de Porto et
+            découvrez une place moderne entourée de monuments traditionnels.<br> En fin de journée, admirez la ville depuis le sommet d’un symbole portuan.<br> Le soir, régalez-vous avec des saveurs typiques sublimées.
           </p>
           <br>
           <p><strong>Jour 3</strong> : Porto - Un vin de caractère</p>
           <p>
-            Traversez le pont Dom-Luís pour rejoindre l’autre rive.<br>
-            À Vila Nova de Gaia, percez les secrets du vin de Porto et appréciez ses notes fruitées.<br>
-            L’après-midi, poursuivez la découverte des lieux avant d’embarquer pour une croisière sur le fleuve d’or.<br>
-            Pour cette dernière soirée, éveillez vos papilles dans une maison gourmande et soignée au bord du Douro.
+            Traversez le pont Dom-Luís pour rejoindre l’autre rive.<br> À Vila Nova de Gaia, percez les secrets du vin de Porto et appréciez ses notes fruitées.<br> L’après-midi, poursuivez la découverte des lieux avant d’embarquer pour une croisière
+            sur le fleuve d’or.<br> Pour cette dernière soirée, éveillez vos papilles dans une maison gourmande et soignée au bord du Douro.
           </p>
           <br>
           <p><strong>Jour 4</strong> : Porto</p>
           <p>
-Selon votre acheminement retour, rejoignez l’aéroport le matin ou poursuivez votre escapade librement dans les ruelles de la ville.
+            Selon votre acheminement retour, rejoignez l’aéroport le matin ou poursuivez votre escapade librement dans les ruelles de la ville.
           </p>
         </div>
-        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation.  Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
+        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation. Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
       </div>
       <div class="column">
         <div class="box1 prix">
           <p><strong>Le prix inclut : </strong><br>
-            <br>
-          - L’hébergement en chambre double dans un hôtel*** (3 nuits)<br>
-          - Les taxes de séjour<br>
-          - Les repas suivants : 3 petits-déjeuners, 3 dîners<br>
-          - Les visites et activités mentionnées dans le programme<br>
-          - Votre carnet de voyage<br>
-          - Des itinéraires de découverte<br>
-          - Un répertoire d'adresses gourmandes</p>
+            <br> - L’hébergement en chambre double dans un hôtel*** (3 nuits)<br> - Les taxes de séjour<br> - Les repas suivants : 3 petits-déjeuners, 3 dîners<br> - Les visites et activités mentionnées dans le programme<br> - Votre carnet de voyage<br>            - Des itinéraires de découverte<br> - Un répertoire d'adresses gourmandes</p>
         </div>
         <div class="box1 prix">
           <p><strong>Le prix n'inclut pas : </strong><br>
-            <br>
-            - L’acheminement aller/retour de la ville de départ à Porto<br>
-            - Le transport sur place<br>
-            - Les déjeuners<br>
-            - Les boissons<br>
-            - Toute prestation non mentionnée dans le programme<br>
-            - Les dépenses personnelles<br>
-            - Les pourboires éventuels<br>
-            - Les assurances (nous consulter)<br>
+            <br> - L’acheminement aller/retour de la ville de départ à Porto<br> - Le transport sur place<br> - Les déjeuners<br> - Les boissons<br> - Toute prestation non mentionnée dans le programme<br> - Les dépenses personnelles<br> - Les pourboires
+            éventuels<br> - Les assurances (nous consulter)<br>
           </p>
         </div>
         <div class="circle3 color2">

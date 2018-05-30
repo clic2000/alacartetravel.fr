@@ -24,6 +24,28 @@
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
+
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'https://alacartetravel.fr/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', 'd046b28a3e3fa0f045b3e8511fd11341']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+
+    (function() {
+      var _owa = document.createElement('script');
+      _owa.type = 'text/javascript';
+      _owa.async = true;
+      owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl);
+      _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+      var _owa_s = document.getElementsByTagName('script')[0];
+      _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+  </script>
+  <!-- End Open
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -90,12 +112,12 @@
     <h1 class="title is-1 color-title">
         BORDEAUX, entre ville et vignes
 	    </h1>
-      <br>
+    <br>
   </div>
   <div class="box1 column is-offset-one-quarter is-half">
     <div class="content has-text-centered">
-      <p> Venez découvrir les charmes de Bordeaux, idéalement située à quelques encablures de l’océan et au coeur du vignoble. Prenez de la hauteur, dégustez ses vins, flânez dans ses quartiers secrets et animés, cuisinez ses mets typiques...
-vivez au rythme de la Garonne !
+      <p> Venez découvrir les charmes de Bordeaux, idéalement située à quelques encablures de l’océan et au coeur du vignoble. Prenez de la hauteur, dégustez ses vins, flânez dans ses quartiers secrets et animés, cuisinez ses mets typiques... vivez au rythme
+        de la Garonne !
       </p>
     </div>
   </div>
@@ -124,7 +146,9 @@ vivez au rythme de la Garonne !
       <div class="column is-narrow">
         <div class="circle color2 content has-text-centered">
           <p>Prix indicatif de :<br>
-            <strong class="is-size-2">690 €</strong><br> <div class="prixind">par personne<a href="#note">*</a></div></p>
+            <strong class="is-size-2">690 €</strong><br>
+            <div class="prixind">par personne<a href="#note">*</a></div>
+          </p>
         </div>
         <div class="circle2">
           <div class="content has-text-centered">
@@ -134,7 +158,8 @@ vivez au rythme de la Garonne !
         </div>
       </div>
       <div class="column box1 cadre-produit is-half">
-        <p class="has-text-left"><div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
+        <p class="has-text-left">
+          <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
           - Découvrir une ville chargée d'histoire<br> - Plonger dans la culture viticole<br> - Déguster des mets délicats
         </p>
       </div>
@@ -146,21 +171,18 @@ vivez au rythme de la Garonne !
         <div class="box1 product">
           <h3 class="has-text-centered title">Programme résumé du séjour</h3>
           <p><strong>Jour 1</strong> : Bordeaux - Hôtel de ville, Saint-Pierre</p>
-          <p>Commencez votre séjour bordelais en début d’après-midi. <br>Prenez de la hauteur et profitez d’une vue à 360° sur Bordeaux.<br>Flânez dans le pittoresque quartier Saint-Pierre où un dîner aux saveurs du sud ouest vous attend.<br>
-            Puis, regagnez votre hôtel*** de charme tout confort au coeur de la ville.
+          <p>Commencez votre séjour bordelais en début d’après-midi. <br>Prenez de la hauteur et profitez d’une vue à 360° sur Bordeaux.<br>Flânez dans le pittoresque quartier Saint-Pierre où un dîner aux saveurs du sud ouest vous attend.<br> Puis, regagnez
+            votre hôtel*** de charme tout confort au coeur de la ville.
           </p>
           <br>
           <p><strong>Jour 2</strong> : Bordeaux - Saint-Michel, Bastide</p>
           <p>
-            Dirigez vous vers Saint-Michel, un quartier vivant et cosmopolite, où vous découvrirez son fameux marché des Capucins. <br>
-            Dans l’après-midi, traversez le pont de pierre pour vous balader à Bastide, sur la rive droite récemment modernisée.<br>
-            Le soir, ravissez vos papilles avec un repas gourmand et original.
+            Dirigez vous vers Saint-Michel, un quartier vivant et cosmopolite, où vous découvrirez son fameux marché des Capucins. <br> Dans l’après-midi, traversez le pont de pierre pour vous balader à Bastide, sur la rive droite récemment modernisée.<br>            Le soir, ravissez vos papilles avec un repas gourmand et original.
           </p>
           <br>
           <p><strong>Jour 3</strong> : Bordeaux - Chartrons</p>
           <p>
-            Aujourd’hui, promenez-vous dans le quartier des Chartrons et laissez-vous conter l’histoire des vins de Bordeaux.<br>
-            Enfilez un tablier pour concocter et dîner des spécialités locales.
+            Aujourd’hui, promenez-vous dans le quartier des Chartrons et laissez-vous conter l’histoire des vins de Bordeaux.<br> Enfilez un tablier pour concocter et dîner des spécialités locales.
           </p>
           <br>
           <p><strong>Jour 4</strong> : Vignoble - Saint-Émilion</p>
@@ -168,18 +190,17 @@ vivez au rythme de la Garonne !
             Prenez la route du vignoble bordelais pour percer les secrets de ses vins et les déguster avant de rejoindre une cité de caractère. Le voyage touche à sa fin… empruntez le chemin du retour.
           </p>
         </div>
-        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation.  Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
+        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation. Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
       </div>
       <div class="column">
         <div class="box1 prix">
           <p><strong>Le prix inclut : </strong><br>
-            <br> - L’hébergement en chambre double dans un hôtel*** (3 nuits)<br> - Les taxes de séjour<br> - Les repas suivants : 3 petits-déjeuners, 3 dîners<br> - Les visites et activités mentionnées dans le programme<br> - Votre carnet de voyage<br> - Des itinéraires de découverte<br>
-          - Un répertoire d'adresses gourmandes</p>
+            <br> - L’hébergement en chambre double dans un hôtel*** (3 nuits)<br> - Les taxes de séjour<br> - Les repas suivants : 3 petits-déjeuners, 3 dîners<br> - Les visites et activités mentionnées dans le programme<br> - Votre carnet de voyage<br>            - Des itinéraires de découverte<br> - Un répertoire d'adresses gourmandes</p>
         </div>
         <div class="box1 prix">
           <p><strong>Le prix n'inclut pas : </strong><br>
-            <br> - L’acheminement aller/retour de la ville de départ à Bordeaux<br>- Le véhicule pour le jour 4<br> - Les déjeuners<br> - Les boissons<br> - Toute prestation non mentionnée dans le programme<br> - Les dépenses personnelles<br> - Les pourboires éventuels<br> - Les assurances
-            (nous consulter)<br>
+            <br> - L’acheminement aller/retour de la ville de départ à Bordeaux<br>- Le véhicule pour le jour 4<br> - Les déjeuners<br> - Les boissons<br> - Toute prestation non mentionnée dans le programme<br> - Les dépenses personnelles<br> - Les pourboires
+            éventuels<br> - Les assurances (nous consulter)<br>
           </p>
         </div>
         <div class="circle3 color2">

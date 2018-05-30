@@ -25,6 +25,28 @@
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
+
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'https://alacartetravel.fr/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', 'd046b28a3e3fa0f045b3e8511fd11341']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+
+    (function() {
+      var _owa = document.createElement('script');
+      _owa.type = 'text/javascript';
+      _owa.async = true;
+      owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl);
+      _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+      var _owa_s = document.getElementsByTagName('script')[0];
+      _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+  </script>
+  <!-- End Open
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -89,69 +111,69 @@
   <div class="hidden">
     <!-- Mobile -->
     <div class="is-hidden-desktop">
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="afrique.html"><img src="img/destinations/afrique.jpg" class="radius" alt="destination afrique"/>
+      <div class="columns">
+        <div class="column boite imgdestination">
+          <a href="afrique.html"><img src="img/destinations/afrique.jpg" class="radius" alt="destination afrique"/>
           <p class="text title titledest">AFRIQUE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="ameriquedunord.html"><img src="img/destinations/ameriquenord.jpg" class="radius" alt="destination amérique du nord"/>
+        </div>
+        <div class="column boite imgdestination">
+          <a href="ameriquedunord.html"><img src="img/destinations/ameriquenord.jpg" class="radius" alt="destination amérique du nord"/>
           <p class="text titledest title">AMÉRIQUE DU NORD</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="ameriquelatine.html"><img src="img/destinations/ameriquesud.jpg" class="radius" alt="destination amérique latine"/>
+        </div>
+        <div class="column boite imgdestination">
+          <a href="ameriquelatine.html"><img src="img/destinations/ameriquesud.jpg" class="radius" alt="destination amérique latine"/>
           <p class="text title titledest">AMÉRIQUE LATINE</p></a>
+        </div>
       </div>
-    </div>
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="asie.html"><img src="img/destinations/asie.jpg" class="radius" alt="destination asie"/>
+      <div class="columns">
+        <div class="column boite imgdestination">
+          <a href="asie.html"><img src="img/destinations/asie.jpg" class="radius" alt="destination asie"/>
           <p class="text title titledest">ASIE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="europe.html"><img src="img/destinations/europe.jpg" class="radius" alt="destination europe"/>
+        </div>
+        <div class="column boite imgdestination">
+          <a href="europe.html"><img src="img/destinations/europe.jpg" class="radius" alt="destination europe"/>
           <p class="text title titledest">EUROPE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="oceanie.html"><img src="img/destinations/oceanie.jpg" class="radius" alt="destination asie"/>
+        </div>
+        <div class="column boite imgdestination">
+          <a href="oceanie.html"><img src="img/destinations/oceanie.jpg" class="radius" alt="destination asie"/>
           <p class="text title titledest">OCÉANIE</p></a>
+        </div>
       </div>
     </div>
-  </div>
-<!-- Desktop -->
+    <!-- Desktop -->
     <div class="destination">
       <div class="is-hidden-touch">
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="ameriquedunord.html"><img src="img/destinations/ameriquenord.jpg" class="radius" alt="destination amérique du nord"/>
+        <div class="columns">
+          <div class="column boite imgdestination">
+            <a href="ameriquedunord.html"><img src="img/destinations/ameriquenord.jpg" class="radius" alt="destination amérique du nord"/>
           <p class="text titledest title">AMÉRIQUE DU NORD</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="europe.html"><img src="img/destinations/europe.jpg" class="radius" alt="destination europe"/>
+          </div>
+          <div class="column boite imgdestination">
+            <a href="europe.html"><img src="img/destinations/europe.jpg" class="radius" alt="destination europe"/>
           <p class="text title titledest">EUROPE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="asie.html"><img src="img/destinations/asie.jpg" class="radius" alt="destination asie"/>
+          </div>
+          <div class="column boite imgdestination">
+            <a href="asie.html"><img src="img/destinations/asie.jpg" class="radius" alt="destination asie"/>
           <p class="text title titledest">ASIE</p></a>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column boite imgdestination">
-        <a href="ameriquelatine.html"><img src="img/destinations/ameriquesud.jpg" class="radius" alt="destination amérique latine"/>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column boite imgdestination">
+            <a href="ameriquelatine.html"><img src="img/destinations/ameriquesud.jpg" class="radius" alt="destination amérique latine"/>
           <p class="text title titledest">AMÉRIQUE LATINE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="afrique.html"><img src="img/destinations/afrique.jpg" class="radius" alt="destination afrique"/>
+          </div>
+          <div class="column boite imgdestination">
+            <a href="afrique.html"><img src="img/destinations/afrique.jpg" class="radius" alt="destination afrique"/>
           <p class="text title titledest">AFRIQUE</p></a>
-      </div>
-      <div class="column boite imgdestination">
-        <a href="oceanie.html"><img src="img/destinations/oceanie.jpg" class="radius" alt="destination asie"/>
+          </div>
+          <div class="column boite imgdestination">
+            <a href="oceanie.html"><img src="img/destinations/oceanie.jpg" class="radius" alt="destination asie"/>
           <p class="text title titledest">OCÉANIE</p></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
 
   <!--FOOTER-->
   <footer>

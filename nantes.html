@@ -24,6 +24,28 @@
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
+
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'https://alacartetravel.fr/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', 'd046b28a3e3fa0f045b3e8511fd11341']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+
+    (function() {
+      var _owa = document.createElement('script');
+      _owa.type = 'text/javascript';
+      _owa.async = true;
+      owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl);
+      _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+      var _owa_s = document.getElementsByTagName('script')[0];
+      _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+  </script>
+  <!-- End Open
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -90,13 +112,12 @@
     <h1 class="title is-1 color-title">
         NANTES, entre ville et vignes
 	    </h1>
-      <br>
+    <br>
   </div>
   <div class="box1 column is-offset-one-quarter is-half">
     <div class="content has-text-centered">
-      <p> Prenez le temps pour une parenthèse gourmande et dépaysante.
-Profitez d’une balade sur l’autre rive, revivez l’histoire des chantiers navals nantais et remémorez-vous les saveurs de votre enfance en dégustant l’incontournable biscuit LU…
-laissez-vous aller pour un séjour à Nantes, entre ville et vignes.
+      <p> Prenez le temps pour une parenthèse gourmande et dépaysante. Profitez d’une balade sur l’autre rive, revivez l’histoire des chantiers navals nantais et remémorez-vous les saveurs de votre enfance en dégustant l’incontournable biscuit LU… laissez-vous
+        aller pour un séjour à Nantes, entre ville et vignes.
       </p>
     </div>
   </div>
@@ -125,7 +146,9 @@ laissez-vous aller pour un séjour à Nantes, entre ville et vignes.
       <div class="column is-narrow">
         <div class="circle color2 content has-text-centered">
           <p>Prix indicatif de :<br>
-            <strong class="is-size-2">420 €</strong><br> <div class="prixind">par personne<a href="#note">*</a></div></p>
+            <strong class="is-size-2">420 €</strong><br>
+            <div class="prixind">par personne<a href="#note">*</a></div>
+          </p>
         </div>
         <div class="circle2">
           <div class="content has-text-centered">
@@ -135,10 +158,9 @@ laissez-vous aller pour un séjour à Nantes, entre ville et vignes.
         </div>
       </div>
       <div class="column box cadre-produit is-half">
-        <p class="has-text-left"><div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
-          - Plonger au coeur du passé<br>
-          - Déguster une cuisine du terroir<br>
-          - Vivre le contraste entre une ville dynamique et un vignoble apaisant
+        <p class="has-text-left">
+          <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
+          - Plonger au coeur du passé<br> - Déguster une cuisine du terroir<br> - Vivre le contraste entre une ville dynamique et un vignoble apaisant
         </p>
       </div>
     </div>
@@ -149,16 +171,14 @@ laissez-vous aller pour un séjour à Nantes, entre ville et vignes.
         <div class="box1 product">
           <h3 class="has-text-centered title">Programme résumé du séjour</h3>
           <p><strong>Jour 1</strong> : Nantes</p>
-          <p>Commencez votre séjour nantais en début d’après-midi. <br>
-            Embarquez vers l’autre rive et flânez dans un ancien village de pêcheurs aux maisons colorées. <br>
-            Rendez-vous ensuite aux pieds de l’ancienne demeure des Ducs de Bretagne et dans le quartier médiéval pour une balade et un dîner gourmand.<br> Puis, regagnez votre hôtel*** tout confort au coeur de la ville.
+          <p>Commencez votre séjour nantais en début d’après-midi. <br> Embarquez vers l’autre rive et flânez dans un ancien village de pêcheurs aux maisons colorées. <br> Rendez-vous ensuite aux pieds de l’ancienne demeure des Ducs de Bretagne et dans le
+            quartier médiéval pour une balade et un dîner gourmand.<br> Puis, regagnez votre hôtel*** tout confort au coeur de la ville.
           </p>
           <br>
           <p><strong>Jour 2</strong> : Nantes</p>
           <p>
-            Percez les secrets du mythique et élégant quartier Graslin.<br>
-            Rejoignez l’île de Nantes où vous plongerez au coeur de l’histoire des chantiers navals nantais.<br>
-            Baladez vous le long de la Loire, découvrez le quartier de la création, arpentez les rues de la ville vers un lieu unique en son genre. Un dîner typiquement nantais vous y attend.
+            Percez les secrets du mythique et élégant quartier Graslin.<br> Rejoignez l’île de Nantes où vous plongerez au coeur de l’histoire des chantiers navals nantais.<br> Baladez vous le long de la Loire, découvrez le quartier de la création, arpentez
+            les rues de la ville vers un lieu unique en son genre. Un dîner typiquement nantais vous y attend.
           </p>
           <br>
           <p><strong>Jour 3</strong> : Route du vignoble</p>
@@ -166,30 +186,18 @@ laissez-vous aller pour un séjour à Nantes, entre ville et vignes.
             Prenez la route du vignoble nantais pour déguster son célèbre muscadet avant de découvrir une cité de caractère.
           </p>
         </div>
-        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation. Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
+        <p id="note" class="has-text-justified"><br>*Prix indicatif, en chambre double, sur la base de 2 personnes sous réserve de disponibilité lors de la réservation. Le tarif est susceptible d’évoluer selon la date de départ et le nombre de participants</p>
       </div>
       <div class="column">
         <div class="box1 prix">
           <p><strong>Le prix inclut : </strong><br>
-            <br> - L’hébergement en chambre double dans un hôtel*** (2 nuits)<br>
-            - Les taxes de séjour<br>
-            - Les repas suivants : 2 petits-déjeuners et 2 dîners<br>
-            - Les visites et activités mentionnées dans le programme<br>
-            - 1 titre de transport par personne valable 24h<br>
-            - Votre carnet de voyage<br>
-            - Des itinéraires de découverte<br>
-            - Un répertoire d'adresses gourmandes</p>
+            <br> - L’hébergement en chambre double dans un hôtel*** (2 nuits)<br> - Les taxes de séjour<br> - Les repas suivants : 2 petits-déjeuners et 2 dîners<br> - Les visites et activités mentionnées dans le programme<br> - 1 titre de transport par
+            personne valable 24h<br> - Votre carnet de voyage<br> - Des itinéraires de découverte<br> - Un répertoire d'adresses gourmandes</p>
         </div>
         <div class="box1 prix">
           <p><strong>Le prix n'inclut pas : </strong><br>
-            <br> - L’acheminement aller/retour de la ville de départ à Nantes<br>
-            - Le véhicule pour le jour 3<br>
-            - Les déjeuners<br>
-            - Les boissons<br>
-            - Toute prestation non mentionnée dans le programme<br>
-            - Les dépenses personnelles<br>
-            - Les pourboires éventuels<br>
-            - Les assurances (nous consulter)<br>
+            <br> - L’acheminement aller/retour de la ville de départ à Nantes<br> - Le véhicule pour le jour 3<br> - Les déjeuners<br> - Les boissons<br> - Toute prestation non mentionnée dans le programme<br> - Les dépenses personnelles<br> - Les pourboires
+            éventuels<br> - Les assurances (nous consulter)<br>
           </p>
         </div>
         <div class="circle3 color2">
