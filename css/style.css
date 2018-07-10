@@ -372,6 +372,10 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 #bgnouvellezelande{
   background: url(../img/destinations/nouvelle-zelande.jpg) no-repeat center fixed;
 }
+
+#bgminorque{
+  background: url(../img/destinations/minorque.jpg) no-repeat center fixed;
+}
 .boite2 {
   padding: 2px;
   padding-bottom: 10px;
