@@ -155,8 +155,9 @@ li {
   padding-right: 0;
 }
 
-.noborder {
-  border: none;
+.bgconcept {
+  background-image: url(../img/concept/conceptculinaire.jpg);
+  background-size: 100%;
 }
 
 .who {
