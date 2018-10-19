@@ -158,6 +158,8 @@ li {
 .bgconcept {
   background-image: url(../img/concept/conceptculinaire.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 283px;
 }
 
 .who {
