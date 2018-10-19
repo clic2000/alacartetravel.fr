@@ -449,6 +449,14 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   border-radius: 1%;
 }
 
+.bgevent {
+  background-image: url(../img/evenement/event.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 232px;
+}
+
 .conteneur {
   display: flex;
 }
@@ -464,6 +472,8 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 .garanties li {
   text-align: left;
 }
+
+.bgevent 
 
 /*PRODUITS*/
 
