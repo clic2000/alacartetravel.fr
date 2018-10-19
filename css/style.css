@@ -163,6 +163,14 @@ li {
   min-height: 232px;
 }
 
+.bgpanneau {
+  background-image: url(../img/concept/conceptpanneau.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 232px;
+}
+
 .who {
   padding-left: 1.25rem;
 }
