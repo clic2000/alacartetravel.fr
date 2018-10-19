@@ -461,6 +461,16 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   display: flex;
 }
 
+/*AFFAIRES*/
+
+.bgaffaire {
+  background-image: url(../img/affaires/affaires-bus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 370px;
+}
+
 /*GARANTIES*/
 
 .garanties {
