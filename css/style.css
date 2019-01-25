@@ -505,15 +505,15 @@ padding-top: 10px;
 .circle {
   border: 1px;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 190px;
+  width: 190px;
   margin-left: 50px;
   margin-top: 50px;
 }
 
 .circle p {
   position: relative;
-  top: 35px;
+  top: 20px;
   font-size: 110%;
 }
 
@@ -587,6 +587,7 @@ padding-top: 10px;
 
 .product {
   padding: 70px 20px;
+  margin-bottom: 30px;
 }
 
 .prix {
