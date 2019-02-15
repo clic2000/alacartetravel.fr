@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lettonie</title>
+    <!--LINKS TO CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/map.css" />
+
+    <!--LINK TO JQUERY & JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/modal.js"></script>
+
+    <!--JQUERY - FADEIN EFFECT-->
+    <script>
+        jQuery(document).ready(function() {
+      $('div.hidden').fadeIn(2000).removeClass('hidden');
+    });
+  </script>
+
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="alct">
+            <a href="index.html"><img class="logo" src="img/logobleu.png" alt="logo alct"></a>
+        </div>
+    </header>
+
+    <!--MENU-->
+    <div class="tabs is-centered is-small is-boxed menu">
+        <ul>
+            <li>
+                <a href="concept.html">CONCEPT</a>
+            </li>
+            <li>
+                <a href="destinations.html">DESTINATIONS</a>
+            </li>
+            <li>
+                <a href="affaires.html">AFFAIRES</a>
+            </li>
+            <li>
+                <a href="evenementiel.html">ÉVÉNEMENTIEL</a>
+            </li>
+            <li>
+                <a href="garanties.html">GARANTIES</a>
+            </li>
+            <li>
+                <a href="actualites.html">ACTUALITÉS</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/alctvoyages/">
+                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/alctvoyages/">
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="hidden">
+        <div class="container has-text-centered">
+            <br>
+            <h1 class="title is-1 color-title">
+                LETTONIE, l’étonnante
+            </h1>
+            <br>
+        </div>
+        <div class="box1 column is-offset-one-quarter is-half">
+            <div class="content has-text-centered">
+                <p> Sur les bords de la mer Baltique, partez à la découverte d’un pays plein de surprises.
+                    Ici, chaque endroit est chargé d’histoire, la nature y est grandiose et les délices culinaires
+                    nombreux… venez explorer la Lettonie et ses secrets !</p>
+            </div>
+        </div>
+        <br>
+        <div class="column is-offset-one-quarter is-half">
+            <div class="columns">
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img class="radius" src="img/produits/lettonie-riga.jpg" alt="Lettonie Riga">
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img class="radius" src="img/produits/lettonie-bieres.jpg" alt="Lettonie dégustation bières">
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img class="radius" src="img/produits/lettonie-mer-baltique.jpg" alt="Lettonie mer baltique">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="column is-half is-offset-one-quarter haut">
+            <div class="columns is-8">
+                <div class="column is-narrow">
+                    <div class="circle color2 content has-text-centered">
+                        <p>Idée de séjour<br>
+                            coup de <span class="icon pink"><i class="fa fa-heart"></i></span><br>
+                            - <br>
+                            Devis sur <br>
+                            demande
+                        </p>
+                    </div>
+                    <div class="circle2">
+                        <div class="content has-text-centered">
+                            <p>8<br> jours
+                                <br> 7 nuits</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column box1 cadre-produit is-half">
+                    <p class="has-text-left">
+                        <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :</div>
+                        - Déguster une cuisine savoureuse<br>
+                        - Se ressourcer<br>
+                        - Profiter d’une expérience unique
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column is-10 is-offset-1">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <div class="box1 product">
+                        <h3 class="has-text-centered title">Programme résumé du séjour</h3>
+                        <p><strong>Jour 1</strong> : Lettonie, premiers pas…</p>
+                        À votre arrivée sur le sol letton, récupérez votre véhicule de location puis prenez la
+                        direction de la vallée de la Gauja, un peu plus au nord. Si vous avez le temps, baladez-vous
+                        dans ce cadre naturel magique. En soirée, savourez des mets raffinés et gagnez votre
+                        hébergement tout confort au coeur de la forêt.
+                        </p>
+                        <br>
+                        <p><strong>Jour 2</strong> : Vallée de la Gauja, entre nature et traditions</p>
+                        <p>
+                            Ce matin, découvrez le processus de fabrication d’une bière locale, dégustez-la et partagez
+                            un déjeuner convivial dans le restaurant de la brasserie. Après le repas, visitez la ville
+                            médiévale de Cēsis et arpentez le parc national de la Gauja : forêts, lacs, grottes,
+                            falaises… les amoureux de nature seront comblés. Pour le dîner, nous vous suggérons
+                            quelques adresses avant de rejoindre votre hôtel pour une bonne nuit de sommeil.
+                        </p>
+                        <br>
+                        <p><strong>Jour 3</strong> : Vallée de la Gauja, cités historiques</p>
+                        <p>
+                            Aujourd’hui, explorez la petite ville de Ligatne, célèbre pour son industrie du papier et
+                            ses caves troglodytes. Rendez-vous, ensuite, au château de Turaida, laissez-vous conter son
+                            histoire et flânez dans son joli parc. Avant de quitter la vallée, profitez d’une
+                            expérience insolite et relaxante : le sauna traditionnel letton. Prenez ensuite la
+                            direction de la charmante ville de Kuldīga, à l’ouest du pays. Ce soir, goûtez une cuisine
+                            lettone et séjournez dans un boutique hôtel.
+                        </p>
+                        <br>
+                        <p><strong>Jour 4</strong> : Parc National de Slītere, à l’état sauvage</p>
+                        <p>
+                            Après avoir découvert Kuldīga, rejoignez, au nord, le Parc National de Slītere. Admirez des
+                            pins à perte de vue face à la mer baltique : un endroit enchanteur où il fait bon se
+                            balader. Cap ensuite vers la capitale lettonne en empruntant la route côtière… Une fois
+                            arrivés, installez-vous dans votre hôtel en plein coeur de Riga et ravissez vos papilles de
+                            savoureux plats.
+                        </p>
+                        <br>
+                        <p><strong>Jour 5</strong> : Riga, la charmante</p>
+                        <p>
+                            Bienvenue à Riga ! Rien de mieux que de découvrir la ville à travers ses spécialités
+                            culinaires, alors direction le marché central pour une visite guidée. Suite à cela, une
+                            pause culturelle est de mise ! Enfin, apprenez-en davantage sur les saveurs d’un café
+                            local. Au menu du soir, des produits lettons revisités… avant de profiter d’une nuit
+                            réparatrice dans votre confortable chambre d’hôtel.
+                        </p>
+                        <br>
+                        <p><strong>Jour 6</strong> : Riga et ses environs /p>
+                            <p>
+                                Pour cette journée nous vous proposons une immersion à Riga, de l’autre côté de la
+                                rive, dans le quartier de Pardaugava : église colorée, maisons en bois, ruelles
+                                secrètes… Ou bien, si vous préférez, prenez la direction du Parc National de Kemeri à
+                                proximité de la ville : marais, tourbières, espèces d’oiseaux… la nature à l’état pur !
+                                En soirée, regagnez Riga où un repas raffiné vous attend avant de retrouver votre
+                                hôtel.
+                            </p>
+                            <br>
+                            <p><strong>Jour 7</strong> : Riga, passionnément</p>
+                            <p>
+                                Dans la matinée, parcourez la charmante capitale lors d’une balade de découverte entre
+                                centre historique et canaux. L’après-midi, enfilez votre tablier et devenez le chef !
+                                Concoctez des mets made in Latvia et RIGAlez-vous de ces délices. Laba apetīte !
+                            </p>
+                            <br>
+                            <p><strong>Jour 8</strong> : Clap de fin</p>
+                            <p>
+                                Selon l’heure de votre vol, flânez dans Riga librement ou regagnez l’aéroport des
+                                souvenirs plein la tête.
+                            </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box1 prix">
+                        <p><strong>Le prix inclut : </strong><br>
+                            <br>
+                            - L’hébergement dans les établissements suivants (ou équivalents) : <br>
+                            &nbsp; - Hôtel Villa Santa à Cēsis (2 nuits)<br>
+                            &nbsp; - Hôtel Noliktava No 5 à Kuldīga (1 nuit) <br>
+                            &nbsp; - Hôtel Redstone à Riga (4 nuits) <br>
+                            - Le véhicule de location pour la durée du séjour <br>
+                            - Les 7 petits-déjeuner<br>
+                            - Les dîners des J1, J3, J4, J5, J6, J7 et le déjeuner du J2 <br>
+                            - Les activités mentionnées dans le
+                            programme<br>
+                            - Votre carnet de voyage, des itinéraires de découverte et un répertoire d’adresses
+                            gourmandes
+                    </div>
+                    <div class="box1 prix">
+                        <p><strong>Le prix n'inclut pas : </strong><br>
+                            <p><strong>Le prix n'inclut pas : </strong><br>
+                                <br> - L’acheminement vers la Lettonie<br>
+                                - L’essence sur place <br>
+                                - Les taxes de séjour<br>
+                                - Les déjeuners (sauf J2) et les boissons<br>
+                                - Les dépenses personnelles<br>
+                                - Les pourboires éventuels<br>
+                                - Les assurances (nous consulter)<br>
+                            </p>
+                        </p>
+                    </div>
+                    <div class="circle3 color2">
+                        <div class="content has-text-centered">
+                            <p>Envie de la personnaliser ? <br> D’y ajouter un zeste de culture, de sport, de bien-être
+                                ?</p>
+                        </div>
+                        <div class="circle4">
+                            <div class="content has-text-centered">
+                                <p>Vous souhaitez réserver<br> cette formule ?</p>
+                            </div>
+                        </div>
+                        <div class="circle5">
+                            <div class="content has-text-centered">
+                                <p><a href="contact.html">Contactez-nous !</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <a href="https://myrdin.me" target="_blank">Site Web : Myrdin</a> · <a href="#" onclick="toggleModal(); return false;">Mentions
+            Légales</a>
+    </footer>
+    <div class="modal has-text-justified">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <div class="modal-card-head">
+                <p class="modal-card-title has-text-centered">MENTIONS LÉGALES</p>
+                <button class="delete" aria-label="close" onclick="toggleModal(); return false;"></button>
+            </div>
+            <section class="modal-card-body">
+                <!-- Content ... -->
+                <h4 class="title is-4">À La Carte Travel, voyagiste</h4>
+                <p>SARL au capital de 10 000 Euros<br> 21 Quai des Indes 56 100 LORIENT<br>
+                    <a href="mailto:contact@alacartetravel.fr">contact@alacartetravel.fr</a> 06 19 88 88 97<br>
+                    <br> RCS de Lorient / Numéro SIRET : 830 550 620 00025<br>
+                    <br> Immatriculation au Registre des Opérateurs de Voyages et de Séjours <br> Atout France : IM
+                    056170010<br>
+                    Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
+                    <br> Assurance RCP : Gras Savoye, 33 quai de Dion Bouton, 92 800 Puteaux<br>
+                    <br> Code APE : 7912 Z<br> Numéro TVA : FR68830550620<br>
+                    <br> Le site <a href="index.html">www.alacartetravel.fr</a> est hébergé par <a href="https://www.online.net/fr">online</a>.<br>
+                    <br>
+                </p>
+                <br>
+                <h4 class="title is-4">Propriété intellectuelle</h4>
+                <p>Toute représentation totale ou partielle du site À La Carte Travel ainsi que son contenu (structure,
+                    textes,
+                    logos et graphismes, images, vidéos, sons...), quels que soient les procédés employés et quels que
+                    soient les
+                    médias utilisés (internet,
+                    téléphonie, presse écrite...), sans autorisation écrite préalable et expresse de la société À La
+                    Carte Travel
+                    est interdite et constituerait une contrefaçon sanctionnée par le code de la propriété
+                    intellectuelle.<br>
+                    <br> Par ailleurs, les informations concernant les clients de la société À La Carte Travel ne sont
+                    jamais
+                    communiquées à des tiers et sont uniquement utilisées dans le cadre promotionnel de la marque.<br>
+                    <br> Tous droits réservés.</p>
+            </section>
+            <div class="modal-card-foot">
+                <button class="button color2 center" onclick="toggleModal(); return false;">J'ai compris.</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
