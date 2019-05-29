@@ -97,3 +97,8 @@ function toggleDropdownMont() {
     var element = document.getElementById("mont");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownCos() {
+    var element = document.getElementById("cos");
+    element.classList.toggle("is-active");
+}
