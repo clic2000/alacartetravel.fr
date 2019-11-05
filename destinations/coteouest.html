@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8" />
@@ -18,7 +18,7 @@
 
   <!--JQUERY - FADEIN EFFECT-->
   <script>
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
@@ -42,15 +42,15 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-    <!-- LINK TO MATOMO TRACKING SCRIPT -->
-<script src="assets/js/tracking.js"></script>
+  <!-- LINK TO MATOMO TRACKING SCRIPT -->
+  <script src="assets/js/tracking.js"></script>
 </head>
 
 <body>
   <!--HEADER-->
   <header>
     <div class="alct">
-      <a href="../index.html"><img class="logo" src="../assets/img/logobleu.png"></a>
+      <a href="../index.html"><img class="logo" src="../assets/img/logobleu.png" alt="logo alct"></a>
     </div>
   </header>
 
@@ -60,11 +60,11 @@
       <li>
         <a href="concept.html">CONCEPT</a>
       </li>
-      <li class="is-active">
+      <li>
         <a href="../destinations.html">DESTINATIONS</a>
       </li>
       <li>
-          <a href="../affaires.html">AFFAIRES</a>
+        <a href="../affaires.html">AFFAIRES</a>
       </li>
       <li>
         <a href="../evenementiel.html">ÉVÉNEMENTIEL</a>
@@ -79,35 +79,234 @@
         <a href="../contact.html">CONTACT</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/alctvoyages/" target="_blank">
-                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
-                    </a>
+        <a href="https://www.facebook.com/alctvoyages/">
+          <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+        </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/alctvoyages/" target="_blank">
-                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                    </a>
+        <a href="https://www.instagram.com/alctvoyages/">
+          <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+        </a>
       </li>
     </ul>
   </div>
-   <!--BREADCRUMB-->
-   <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
-      <ul>
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="../destinations.html">Destinations</a></li>
-        <li><a href="ameriquedunord.html">Amérique du Nord</a></li>
-        <li class="is-active"><a href="coteouest.html" aria-current="page">Côte Ouest</a></li>
-      </ul>
-    </nav>
-  <div class="bgproduct hidden container is-widescreen" id="bgcoteouest">
-    <div class="box boite2">
-      <p class="continent">CÔTE OUEST</p>
-      <p class="patience"><a href="../contact.html">Contactez-nous</a> pour votre séjour sur-mesure aux couleurs d'ALCT ! </p>
+  <!--BREADCRUMB-->
+  <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="../destinations.html">Destinations</a></li>
+      <li><a href="ameriquedunord.html">Amérique du Nord</a></li>
+      <li class="is-active"><a href="coteouest.html" aria-current="page">Côte Ouest</a></li>
+    </ul>
+  </nav>
+  <div class="hidden">
+    <div class="container has-text-centered">
+      <br>
+      <h1 class="title is-1 color-title">
+        CÔTE OUEST, la superbe
+      </h1>
+      <br>
+    </div>
+    <div class="box1 column is-offset-one-quarter is-half">
+      <div class="content has-text-centered">
+        <p>
+          Rendez-vous en Californie pour un séjour haut en contrastes grâce à ses villes animées, ses vignobles
+          verdoyants et le bleu profond de l’océan Pacifique.  Une escapade colorée et savoureuse !
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="column is-offset-one-quarter is-half">
+      <div class="columns">
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/coteouest-sanfrancisco.jpeg" alt="San Francisco Pont">
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/coteouest-californie.jpeg" alt="Vignes Californie">
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/coteouest-wayfalls.jpeg" alt="Plage Californie">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="column is-half is-offset-one-quarter haut">
+      <div class="columns is-8">
+        <div class="column is-narrow">
+          <div class="circle color2 content has-text-centered">
+            <p>Idée de séjour<br>
+              coup de <span class="icon pink"><i class="fa fa-heart"></i></span><br>
+              - <br>
+              Devis sur <br>
+              demande
+            </p>
+          </div>
+          <div class="circle2">
+            <div class="content has-text-centered">
+              <p>13<br> jours
+                <br> 12 nuits</p>
+            </div>
+          </div>
+        </div>
+        <div class="column box cadre-produit is-half">
+          <p class="has-text-left">
+            <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :
+            </div>
+            - Découvrir les vignobles californiens <br>
+            - Vivre dans le tumulte des villes <br>
+            - Être émerveillé par la nature
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <div class="box1 product">
+            <h3 class="has-text-centered title">Programme résumé du séjour</h3>
+            <p><strong>Jour 1,2 & 3</strong> : Mise en bouche à San Francisco…</p>
+            <p>
+              À votre arrivée sur le sol américain, une fois les formalités effectuées à l’aéroport, récupérez votre
+              véhicule de location et rejoignez votre hôtel dans San Francisco où vous logerez pour trois nuits. Durant
+              ces journées, visitez les lieux et les quartiers de cette ville mythique : Alcatraz, Fisherman Quay,
+              Golden Bridge, Haight Ashbury… Un cours de cuisine et des restaurants pour les dîners vous sont également
+              réservés à San Francisco les jours 2 et 3. Cela vous permettra de comprendre, préparer et déguster les
+              saveurs de la cuisine américaine, aux influences multiples.
+            </p>
+            <br>
+            <p><strong>Jour 4</strong> : Napa Valley </p>
+            <p>
+              Dans la matinée, empruntez la route du Silverado Trail, célèbre pour traverser certains vignobles de
+              Californie. Faites plusieurs haltes puis installez-vous pour deux nuits dans votre charmant hébergement
+              niché au coeur d’un vignoble. L’après-midi vous aurez l’embarras du choix pour profiter des lieux : faire
+              une balade à vélo, flâner entre les vignes, vous baigner dans la piscine… Dégustez, en soirée, de
+              succulents mets !
+            </p>
+            <br>
+            <p><strong>Jour 5</strong> : Napa Valley</p>
+            <p>
+              Reprenez la route ce matin vers St Helena, un coquet village réputé pour abriter le Culinary Institute of
+              America où nous vous suggérons de déjeuner. L’après-midi, déambulez dans la ville de Calistoga avant de
+              visiter un vignoble et de dégustez ses vins. Dîner libre (suggestions d’adresses gourmandes).
+            </p>
+            <br>
+            <p><strong>Jour 6</strong> : Carmel-by-the-Sea</p>
+            <p>
+              Libérez votre hébergement et cap plus au sud vers la ville de Monterey. Vous commencez alors à longer la
+              sublime côte californienne. Flânez dans Monterey et son port puis parcourez la pittoresque route du 17
+              Mile Drive jusque Carmel-by-the-Sea. Installez-vous dans votre joli hôtel puis découvrez les recoins de
+              cette ville d’artistes. Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 7</strong> : Santa Barbara</p>
+            <p>
+              Longez de nouveau la côte californienne vers le Sud. Entre Carmel et Santa Barbara découvrez des joyaux
+              tels que les chutes de Big Sur. Arrivés à Santa Barbara, prenez place dans votre hébergement et visitez
+              cette ville « à l’européenne ». Ne manquez pas la Funk Zone où vous pourrez déguster du vin, admirer des
+              oeuvres artistiques et dîner dans des restaurants branchés. Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 8</strong> : Los Angeles</p>
+            <p>
+              Le matin, rendez-vous au marché de Santa Barbara pour faire le plein de produits raffinés et locaux !
+              Direction ensuite la gigantesque ville de Los Angeles où vous logerez pour deux nuits. Faites vos stars
+              sur le Hollywood Boulevard et prenez de la hauteur au Griffith Park Observatory d’où vous pourrez admirer
+              l’immensité de la ville, le coucher du soleil et les étoiles… Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 9</strong> : Los Angeles</p>
+            <p>
+              Après un bon petit-déjeuner, rejoignez le quartier de Venice et ses canaux puis découvrez la ville côtière
+              de Santa Monica. Ensuite Beverly Hills et ses villas de célébrités vous attendent. En soirée, dînez des
+              plats savoureux.
+            </p>
+            <br>
+            <p><strong>Jour 10</strong> : Joshua Tree</p>
+            <p>
+              Après une virée au marché de Los Angeles, quittez l’effervescence de la ville pour la tranquillité du parc
+              national de Joshua Tree. Installez-vous dans votre hôtel à Palm Springs, piquez une petite tête dans la
+              piscine et partez faire une balade dans le sauvage parc de Joshua Tree. Assistez au coucher du soleil et
+              retrouvez votre hébergement pour une bonne nuit de sommeil. Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 11</strong> : Joshua Tree</p>
+            <p>
+              Après un réveil matinal, rejoignez le parc pour une belle randonnée, à la journée, au coeur de la nature.
+              Le soir, un bon repas vous permettra de reprendre des forces.
+            </p>
+            <br>
+            <p><strong>Jour 12</strong> : Route 66 et Las Vegas</p>
+            <p>
+              Ce matin, empruntez la mythique route 66. Après des arrêts incontournables, regagnez le Strip de Las Vegas
+              où se trouve votre hébergement réservé pour la nuit. Découvrez cette ville qui ne dort jamais et dînez
+              librement avant d'assister à un spectacle du Cirque du Soleil : majestueux…
+            </p>
+            <br>
+            <p><strong>Jour 13</strong> : By By Vegas</p>
+            <p>
+              Selon votre vol retour, déambulez une nouvelle fois dans le tumulte de Las Vegas puis, déposez votre
+              véhicule à l’aéroport et envolez-vous pour la France où prolongez votre séjour dans <a href="parcsdelouest.html">les parcs de l’ouest
+              américain.</a> 
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box1 prix">
+            <p><strong>Le prix inclut : </strong><br>
+              <br>
+              - Les hébergements suivants (à titre d’exemple, ou équivalents) : <br>
+              &nbsp; - Hôtel G, San Francisco (3 nuits)<br>
+              &nbsp; - The Hotel Carmel, Carmel-by-the-Sea (1 nuit) <br>
+              &nbsp; - Hôtel Dream Hollywood, Los Angeles (2 nuits) <br>
+              - Le véhicule de location pour la durée du séjour<br>
+              - Les petits-déjeuners et les dîners des J2, J3, J4, J9, J11 <br>
+              - La visite d’Alcatraz et le cours de cuisine à San Francisco, le spectacle du cirque du Soleil à Las Vegas <br>
+              - Votre carnet de voyage avec des itinéraires de découverte et un répertoire d’adresses gourmandes
+            </p>
+          </div>
+          <div class="box1 prix">
+            <p><strong>Le prix n'inclut pas : </strong><br>
+              <br>
+              - L’acheminement aller/retour France ✈︎ San Francisco  puis Las Vegas ✈︎ France (en option)<br>
+              - Les taxes de séjour <br>
+              - L’essence sur place <br>
+              - Certaines activités suggérées et l’entrée au parc Joshua Tree (env. 30$ par véhicule) <br>
+              - Les déjeuners, les dîners des J1, J5, J6, J7, J8, J10, J12, les boissons <br>
+              - Les dépenses personnelles <br>
+              - Les pourboires éventuels <br>
+              - Les assurances (nous contacter)
+            </p>
+          </div>
+          <div class="circle3 color2">
+            <div class="content has-text-centered">
+              <p>Envie de la personnaliser ? <br> D’y ajouter un zeste de culture, de sport, de bien-être
+                ?</p>
+            </div>
+            <div class="circle4">
+              <div class="content has-text-centered">
+                <p>Vous souhaitez réserver<br> cette formule ?</p>
+              </div>
+            </div>
+            <div class="circle5">
+              <div class="content has-text-centered">
+                <p><a href="../contact.html">Contactez-nous !</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!--FOOTER-->
   <footer>
-    <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#" onclick="toggleModal(); return false;">Mentions Légales</a>
+    <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#"
+      onclick="toggleModal(); return false;">Mentions
+      Légales</a>
   </footer>
   <div class="modal has-text-justified">
     <div class="modal-background"></div>
@@ -122,17 +321,29 @@
         <p>SARL au capital de 10 000 Euros<br> 21 Quai des Indes 56 100 LORIENT<br>
           <a href="mailto:contact@alacartetravel.fr">contact@alacartetravel.fr</a> 06 19 88 88 97<br>
           <br> RCS de Lorient / Numéro SIRET : 830 550 620 00025<br>
-          <br> Immatriculation au Registre des Opérateurs de Voyages et de Séjours <br> Atout France : IM 056170010<br> Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
+          <br> Immatriculation au Registre des Opérateurs de Voyages et de Séjours <br> Atout France : IM
+          056170010<br>
+          Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
           <br> Assurance RCP : Gras Savoye, 33 quai de Dion Bouton, 92 800 Puteaux<br>
           <br> Code APE : 7912 Z<br> Numéro TVA : FR68830550620<br>
-          <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a href="https://clic2000.fr">Clic2000</a>.<br>
+          <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a
+            href="https://clic2000.fr">Clic2000</a>.<br>
           <br>
         </p>
         <br>
         <h4 class="title is-4">Propriété intellectuelle</h4>
-        <p>Toute représentation totale ou partielle du site À La Carte Travel ainsi que son contenu (structure, textes, logos et graphismes, images, vidéos, sons...), quels que soient les procédés employés et quels que soient les médias utilisés (internet,
-          téléphonie, presse écrite...), sans autorisation écrite préalable et expresse de la société À La Carte Travel est interdite et constituerait une contrefaçon sanctionnée par le code de la propriété intellectuelle.<br>
-          <br> Par ailleurs, les informations concernant les clients de la société À La Carte Travel ne sont jamais communiquées à des tiers et sont uniquement utilisées dans le cadre promotionnel de la marque.<br>
+        <p>Toute représentation totale ou partielle du site À La Carte Travel ainsi que son contenu (structure,
+          textes,
+          logos et graphismes, images, vidéos, sons...), quels que soient les procédés employés et quels que
+          soient les
+          médias utilisés (internet,
+          téléphonie, presse écrite...), sans autorisation écrite préalable et expresse de la société À La
+          Carte Travel
+          est interdite et constituerait une contrefaçon sanctionnée par le code de la propriété
+          intellectuelle.<br>
+          <br> Par ailleurs, les informations concernant les clients de la société À La Carte Travel ne sont
+          jamais
+          communiquées à des tiers et sont uniquement utilisées dans le cadre promotionnel de la marque.<br>
           <br> Tous droits réservés.</p>
       </section>
       <div class="modal-card-foot">
@@ -140,6 +351,7 @@
       </div>
     </div>
   </div>
+
 </body>
 
 </html>
