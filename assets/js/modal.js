@@ -102,3 +102,8 @@ function toggleDropdownCos() {
     var element = document.getElementById("cos");
     element.classList.toggle("is-active");
 }
+
+function toggleDropdownAs() {
+    var element = document.getElementById("as");
+    element.classList.toggle("is-active");
+}
