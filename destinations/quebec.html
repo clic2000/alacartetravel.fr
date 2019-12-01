@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8" />
@@ -18,7 +18,7 @@
 
   <!--JQUERY - FADEIN EFFECT-->
   <script>
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
       $('div.hidden').fadeIn(2000).removeClass('hidden');
     });
   </script>
@@ -42,15 +42,15 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-    <!-- LINK TO MATOMO TRACKING SCRIPT -->
-<script src="assets/js/tracking.js"></script>
+  <!-- LINK TO MATOMO TRACKING SCRIPT -->
+  <script src="assets/js/tracking.js"></script>
 </head>
 
 <body>
   <!--HEADER-->
   <header>
     <div class="alct">
-      <a href="../index.html"><img class="logo" src="../assets/img/logobleu.png"></a>
+      <a href="../index.html"><img class="logo" src="../assets/img/logobleu.png" alt="logo alct"></a>
     </div>
   </header>
 
@@ -60,11 +60,11 @@
       <li>
         <a href="concept.html">CONCEPT</a>
       </li>
-      <li class="is-active">
+      <li>
         <a href="../destinations.html">DESTINATIONS</a>
       </li>
       <li>
-          <a href="../affaires.html">AFFAIRES</a>
+        <a href="../affaires.html">AFFAIRES</a>
       </li>
       <li>
         <a href="../evenementiel.html">ÉVÉNEMENTIEL</a>
@@ -79,26 +79,238 @@
         <a href="../contact.html">CONTACT</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/alctvoyages/" target="_blank">
-                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
-                    </a>
+        <a href="https://www.facebook.com/alctvoyages/">
+          <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+        </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/alctvoyages/" target="_blank">
-                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                    </a>
+        <a href="https://www.instagram.com/alctvoyages/">
+          <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+        </a>
       </li>
     </ul>
   </div>
-  <div class="bgproduct hidden container is-widescreen" id="bgquebec">
-    <div class="box boite2">
-      <p class="continent">LE QUÉBEC</p>
-      <p class="patience"><a href="../contact.html">Contactez-nous</a> pour votre séjour sur-mesure aux couleurs d'ALCT ! </p>
+  <!--BREADCRUMB-->
+  <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="../destinations.html">Destinations</a></li>
+      <li><a href="asie.html">Asie</a></li>
+      <li class="is-active"><a href="bali.html" aria-current="page">Bali</a></li>
+    </ul>
+  </nav>
+  <div class="hidden">
+    <div class="container has-text-centered">
+      <br>
+      <h1 class="title is-1 color-title">
+        QUÉBEC, le chaleureux
+      </h1>
+      <br>
+    </div>
+    <div class="box1 column is-offset-one-quarter is-half">
+      <div class="content has-text-centered">
+        <p>
+          Envolez-vous pour le Québec, une terre chaleureuse, gourmande et dépaysante ! Flânez dans les villes où se
+          mêlent modernité et riche passé et prenez-en plein les yeux face à une nature grandiose. Vous allez adorer !
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="column is-offset-one-quarter is-half">
+      <div class="columns">
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/quebec-chateau.jpg" alt="Château Québec">
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/quebec-foret.jpg" alt="Forêt et lac Québec">
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image is-5by3">
+            <img class="radius" src="../assets/img/produits/quebec-schoolbus.jpg" alt="bus scolaire jaune">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="column is-half is-offset-one-quarter haut">
+      <div class="columns is-8">
+        <div class="column is-narrow">
+          <div class="circle color2 content has-text-centered">
+            <p>Idée de séjour<br>
+              coup de <span class="icon pink"><i class="fa fa-heart"></i></span><br>
+              - <br>
+              Devis sur <br>
+              demande
+            </p>
+          </div>
+          <div class="circle2">
+            <div class="content has-text-centered">
+              <p>12<br> jours
+                <br> 11 nuits</p>
+            </div>
+          </div>
+        </div>
+        <div class="column box cadre-produit is-half">
+          <p class="has-text-left">
+            <div class="lesplus">Les <span class="icon pink"><i class="fa fa-heart"></i></span> du séjour :
+            </div>
+            - Découvrir un pays attachant <br>
+            - Vivre au coeur de la nature <br>
+            - Arpenter des villes chargées d’histoire
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <div class="box1 product">
+            <h3 class="has-text-centered title">Programme résumé du séjour</h3>
+            <p><strong>Jour 1</strong> : France ✈︎ Québec</p>
+            <p>
+              À votre arrivée sur le sol canadien, récupérez votre véhicule de location (à l’aéroport de Montréal) et
+              prenez la direction de la ville de Québec. Faites une halte pour déposer vos bagages dans votre chambre
+              d’hôtes idéalement située (3 nuits) puis flânez librement dans la ville. En soirée, mettez les pieds sous
+              la table pour le dîner.
+            </p>
+            <br>
+            <p><strong>Jour 2</strong> : Ile d’Orléans</p>
+            <p>
+              Pour ce deuxième jour sur place, partez à la découverte de l’île d’Orléans, à proximité de Québec. Des
+              villages ruraux authentiques, des vergers et des produits locaux comme le fameux sirop d’érable… une
+              escapade pleine de charmes ! Ce soir, dînez librement (suggestions d’adresses gourmandes fournies).
+            </p>
+            <br>
+            <p><strong>Jour 3</strong> : Québec</p>
+            <p>
+              Aujourd’hui, appréciez la ville de Québec ! Une balade « guidée » vous fera percez les secrets de cette
+              jolie cité. Nous vous proposons également de découvrir le musée de la civilisation. Pour le dîner,
+              dégustez des plats préparés avec amour.
+            </p>
+            <br>
+            <p><strong>Jour 4</strong> : Le long du fleuve Saint-Laurent</p>
+            <p>
+              Le matin, quittez la ville de Québec et longez le fleuve Saint-Laurent vers le nord. Vous découvrirez les
+              chutes Montmorency et Sainte-Anne. Pour le déjeuner, nous vous suggérons une halte à Baie Saint-Paul,
+              ancien refuge d’artistes québécois. Poursuivez votre route vers Tadoussac, réputée pour être un point
+              d’observation des baleines. Une sortie en zodiac vous attend d’ailleurs à cet endroit. En soirée,
+              installez-vous dans votre maison d’hôtes (1 nuit). Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 5</strong> : Fjord Saguenay</p>
+            <p>
+              Après un bon petit déjeuner, prenez la jolie route qui remonte la rivière Saguenay vers l’Anse Saint-Jean.
+              Partez à la découverte des falaises vertigineuses du fjord lors d’une balade guidée en Kayak. Rejoignez
+              ensuite la ville de Saguenay pour poser vos valises dans votre charmant hébergement qui surplombe le fjord
+              (3 nuits). Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 6</strong> : Parc National des Monts-Valin</p>
+            <p>
+              Profitez de cette journée libre pour randonner dans le Parc National des Monts-Valin : magnifique ! Après
+              l’effort, prélassez-vous dans la piscine de votre hébergement. Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 7</strong> : Le lac Saint-Jean</p>
+            <p>
+              Cap aujourd’hui vers le lac Saint-Jean pour contempler son immensité ! Baignade, balade, route des
+              fromageries… vous avez le choix ! Retour en soirée dans votre hôtel à Saguenay. Dîner libre.
+            </p>
+            <br>
+            <p><strong>Jour 8</strong> : La Mauricie</p>
+            <p>
+              Prenez le chemin, ce jour, de la Mauricie où vous serez logés (2 nuits) dans un chalet tout confort en
+              pleine nature. Ce cadre enchanteur est propice à la randonnée en forêt. Dîner libre (cuisine équipée dans
+              le chalet).
+            </p>
+            <br>
+            <p><strong>Jour 9</strong> : Place à l’aventure</p>
+            <p>
+              Adonnez-vous à des activités à sensations au coeur de la Mauricie : canyoning, rafting, hydroluge… votre
+              hébergement offre de multiples animations. Dîner libre (cuisine équipée dans le chalet).
+            </p>
+            <br>
+            <p><strong>Jour 10</strong> : Montréal</p>
+            <p>
+              Prenez maintenant la direction d’une ville dynamique ! Pour avoir un aperçu de Montréal, nous vous
+              proposons une balade de découvertes à travers ses différents quartiers. Ouvrez grand les yeux ! Après cela
+              un bon dîner aux saveurs locales vous sera servi. En soirée, flânez dans le quartier des spectacles :
+              coloré et animé ! Une bonne nuit de sommeil vous attend ensuite dans votre hôtel au coeur de la ville (2
+              nuits).
+            </p>
+            <br>
+            <p><strong>Jour 11</strong> : Montréal</p>
+            <p>
+              Ce matin arpentez les étals généreux et savoureux du marché Jean Talon, reconnu pour ses produits locaux.
+              De nombreux stands permettent de déjeuner sur place. Après avoir repris des forces, promenez-vous sur le
+              plateau Mont-Royal et dans le joli parc du même nom qui offre une vue imprenable sur la ville. Pour ce
+              dernier dîner, appréciez une cuisine tout en douceur et, si le coeur vous en dit, poursuivez la soirée
+              dans un lieu vivant de Montréal.
+            </p>
+            <br>
+            <p><strong>Jour 12</strong> : Montréal / ✈︎ France, sur le chemin du retour</p>
+            <p>
+              Dans la matinée, pourquoi ne pas en apprendre davantage sur l’histoire québécoise (et canadienne) au musée
+              McCord ? Ensuite, visitez les parcs et jardins ou rendez-vous à l’observatoire place Ville Marie d’où vous
+              surplomberez la ville. En soirée, rejoignez l’aéroport et décollez vers la France. Arrivée le lendemain
+              matin.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box1 prix">
+            <p><strong>Le prix inclut : </strong><br>
+              <br>
+              - Les transports sur place (aéroport-hôtel aller/retour, hôtel-hôtel, excursions incluses dans
+              le programme, bateau aller/retour vers Gili Air) <br>
+              - Les hébergements suivants (ou équivalents) en chambres doubles (13 nuits) : <br>
+              &nbsp; - The Athaya à Ubud (7 nuits)<br>
+              &nbsp; - Gili Air Escape à Gili Air (3 nuits) <br>
+              &nbsp; - Lloyd’s Inn Bali à Seminyak (3 nuits) <br>
+              - Les 13 petits-déjeuners, le déjeuner du jour 5, et 4 dîners (jours 3, 8, 10 et 12)<br>
+              - Les excursions à la journée (jours 4, 6, 7 et 13) <br>
+              - Votre carnet de voyage avec des itinéraires de découverte et un répertoire d’adresses gourmandes <br>
+            </p>
+          </div>
+          <div class="box1 prix">
+            <p><strong>Le prix n'inclut pas : </strong><br>
+              <br>
+              - L’acheminement vers Bali (en option)<br>
+              - Les taxes de séjour <br>
+              - Les déjeuners (sauf J5), les dîners (sauf ceux des jours 3, 8, 10 et 12) et les boissons <br>
+              - Les activités non mentionnées dans le programme <br>
+              - Les dépenses personnelles et les éventuels pourboires <br>
+              - Les assurances (nous contacter)
+            </p>
+          </div>
+          <div class="circle3 color2">
+            <div class="content has-text-centered">
+              <p>Envie de la personnaliser ? <br> D’y ajouter un zeste de culture, de sport, de bien-être
+                ?</p>
+            </div>
+            <div class="circle4">
+              <div class="content has-text-centered">
+                <p>Vous souhaitez réserver<br> cette formule ?</p>
+              </div>
+            </div>
+            <div class="circle5">
+              <div class="content has-text-centered">
+                <p><a href="../contact.html">Contactez-nous !</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!--FOOTER-->
   <footer>
-    <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#" onclick="toggleModal(); return false;">Mentions Légales</a>
+    <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#"
+      onclick="toggleModal(); return false;">Mentions
+      Légales</a>
   </footer>
   <div class="modal has-text-justified">
     <div class="modal-background"></div>
@@ -113,17 +325,29 @@
         <p>SARL au capital de 10 000 Euros<br> 21 Quai des Indes 56 100 LORIENT<br>
           <a href="mailto:contact@alacartetravel.fr">contact@alacartetravel.fr</a> 06 19 88 88 97<br>
           <br> RCS de Lorient / Numéro SIRET : 830 550 620 00025<br>
-          <br> Immatriculation au Registre des Opérateurs de Voyages et de Séjours <br> Atout France : IM 056170010<br> Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
+          <br> Immatriculation au Registre des Opérateurs de Voyages et de Séjours <br> Atout France : IM
+          056170010<br>
+          Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
           <br> Assurance RCP : Gras Savoye, 33 quai de Dion Bouton, 92 800 Puteaux<br>
           <br> Code APE : 7912 Z<br> Numéro TVA : FR68830550620<br>
-          <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a href="https://clic2000.fr">Clic2000</a>.<br>
+          <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a
+            href="https://clic2000.fr">Clic2000</a>.<br>
           <br>
         </p>
         <br>
         <h4 class="title is-4">Propriété intellectuelle</h4>
-        <p>Toute représentation totale ou partielle du site À La Carte Travel ainsi que son contenu (structure, textes, logos et graphismes, images, vidéos, sons...), quels que soient les procédés employés et quels que soient les médias utilisés (internet,
-          téléphonie, presse écrite...), sans autorisation écrite préalable et expresse de la société À La Carte Travel est interdite et constituerait une contrefaçon sanctionnée par le code de la propriété intellectuelle.<br>
-          <br> Par ailleurs, les informations concernant les clients de la société À La Carte Travel ne sont jamais communiquées à des tiers et sont uniquement utilisées dans le cadre promotionnel de la marque.<br>
+        <p>Toute représentation totale ou partielle du site À La Carte Travel ainsi que son contenu (structure,
+          textes,
+          logos et graphismes, images, vidéos, sons...), quels que soient les procédés employés et quels que
+          soient les
+          médias utilisés (internet,
+          téléphonie, presse écrite...), sans autorisation écrite préalable et expresse de la société À La
+          Carte Travel
+          est interdite et constituerait une contrefaçon sanctionnée par le code de la propriété
+          intellectuelle.<br>
+          <br> Par ailleurs, les informations concernant les clients de la société À La Carte Travel ne sont
+          jamais
+          communiquées à des tiers et sont uniquement utilisées dans le cadre promotionnel de la marque.<br>
           <br> Tous droits réservés.</p>
       </section>
       <div class="modal-card-foot">
@@ -131,6 +355,7 @@
       </div>
     </div>
   </div>
+
 </body>
 
 </html>
