@@ -3,28 +3,28 @@
 /*font*/
 
 @font-face {
-  font-family: 'JosefinSans-Light';
-  src: url('../fonts/JosefinSans-Light.ttf') format('truetype');
+  font-family: "JosefinSans-Light";
+  src: url("../fonts/JosefinSans-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'JosefinSans-Regular';
-  src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+  font-family: "JosefinSans-Regular";
+  src: url("../fonts/JosefinSans-Regular.ttf") format("truetype");
 }
 
 body {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   font-size: 122%;
 }
 
 .title {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   font-size: 100%;
   padding-bottom: 0px;
 }
 
 .regular {
-  font-family: 'JosefinSans-Regular';
+  font-family: "JosefinSans-Regular";
 }
 
 .formfont {
@@ -34,15 +34,15 @@ body {
 /*Links*/
 
 li.is-active a {
-  font-family: 'JosefinSans-Regular';
+  font-family: "JosefinSans-Regular";
 }
 
 ul a {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
 }
 
 a {
-  font-family: 'JosefinSans-Regular';
+  font-family: "JosefinSans-Regular";
   color: grey;
   font-weight: bold;
 }
@@ -58,7 +58,7 @@ a {
 /*Title*/
 
 .alct {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   font-size: 150%;
   text-align: center;
   background-color: white;
@@ -70,7 +70,7 @@ a {
 /*Menu*/
 
 .menu {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   left: 0;
   right: 0;
   background-color: white;
@@ -99,7 +99,6 @@ footer {
   text-align: center;
 }
 
-
 footer a {
   color: grey;
 }
@@ -114,7 +113,7 @@ footer a {
 
 .menu_index {
   top: 148px;
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   padding: 0em;
   left: 0;
   right: 0;
@@ -298,17 +297,15 @@ li {
 /*Produits en attente*/
 
 #bgny {
-background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
+  background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 #bgcoteouest {
   background: url(../img/destinations/cote-ouest.jpg) no-repeat center fixed;
-
 }
 
 #bgfloride {
   background: url(../img/destinations/floride.jpg) no-repeat center fixed;
-
 }
 
 #bgquebec {
@@ -328,7 +325,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 #bgmadrid {
-    background: url(../img/destinations/madrid.jpg) no-repeat center fixed;
+  background: url(../img/destinations/madrid.jpg) no-repeat center fixed;
 }
 
 #bgbretagne {
@@ -351,39 +348,39 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
   background: url(../img/destinations/lisbonne.jpg) no-repeat center fixed;
 }
 
-#bgprague{
+#bgprague {
   background: url(../img/destinations/prague.jpg) no-repeat center fixed;
 }
 
-#bgstockholm{
+#bgstockholm {
   background: url(../img/destinations/stockholm.jpg) no-repeat center fixed;
 }
 
-#bgargentine{
+#bgargentine {
   background: url(../img/destinations/argentine.jpg) no-repeat center fixed;
 }
 
-#bgbresil{
+#bgbresil {
   background: url(../img/destinations/bresil.jpg) no-repeat center fixed;
 }
 
-#bgchili{
+#bgchili {
   background: url(../img/destinations/chili.jpg) no-repeat center fixed;
 }
 
-#bgmarrakech{
+#bgmarrakech {
   background: url(../img/destinations/marrakech.jpg) no-repeat center fixed;
 }
 
-#bgaustralie{
+#bgaustralie {
   background: url(../img/destinations/australie.jpg) no-repeat center fixed;
 }
 
-#bgnouvellezelande{
+#bgnouvellezelande {
   background: url(../img/destinations/nouvelle-zelande.jpg) no-repeat center fixed;
 }
 
-#bgminorque{
+#bgminorque {
   background: url(../img/destinations/minorque.jpg) no-repeat center fixed;
 }
 .boite2 {
@@ -397,7 +394,6 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 
 #bgasie {
   background: url(../img/destinations/asie-produit.jpg) no-repeat center fixed;
-
 }
 
 .bgproduct {
@@ -417,7 +413,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .continent {
-  font-family: 'JosefinSans-Light';
+  font-family: "JosefinSans-Light";
   font-size: 200%;
   font-weight: 900;
   position: relative;
@@ -448,7 +444,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .bgevent {
-  background-image: url(../img/evenement/event.jpg);
+  background-image: url(../img/evenement/event.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -498,7 +494,7 @@ background: url(../img/destinations/new-york.jpg) no-repeat center fixed;
 }
 
 .prixind {
-padding-top: 10px;
+  padding-top: 10px;
 }
 
 .color-title {
@@ -522,7 +518,7 @@ padding-top: 10px;
 
 .circle2 {
   border: 1px;
-  background-color: rgba(200, 227, 205, .7);
+  background-color: rgba(200, 227, 205, 0.7);
   border-radius: 50%;
   height: 85px;
   width: 85px;
@@ -558,7 +554,7 @@ padding-top: 10px;
   border-radius: 50%;
   height: 170px;
   width: 170px;
-  background-color: rgba(200, 227, 205, .7);
+  background-color: rgba(200, 227, 205, 0.7);
   margin: -190px 0px 0px 160px;
   font-size: 110%;
 }
@@ -573,7 +569,7 @@ padding-top: 10px;
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background-color: rgba(235, 244, 235, .7);
+  background-color: rgba(235, 244, 235, 0.7);
   margin: -120px 0px 0px 190px;
 }
 
@@ -605,7 +601,6 @@ padding-top: 10px;
   border-radius: 5px;
   border-color: grey;
 }
-
 
 /*Center*/
 
