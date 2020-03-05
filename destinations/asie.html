@@ -44,7 +44,7 @@
   <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- LINK TO MATOMO TRACKING SCRIPT -->
-<script src="assets/js/tracking.js"></script>
+  <script src="assets/js/tracking.js"></script>
 </head>
 
 <body>
@@ -126,13 +126,35 @@
             <img src="../assets/img/destinations/indonesie.jpg" class="radius bgimg" alt="destination indonesies" />
           </div>
         </div>
+        <div class="column">
+          <div class="boite3">
+            <div class="dropdown bouton" id="ouz">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                  onclick="toggleDropdownOuz(); return false;">
+                  <span>OUZBÉKISTAN</span>
+                  <span class="icon is-small">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="ouzbekistan.html" class="dropdown-item">
+                    OUZBÉKISTAN
+                  </a>
+                </div>
+              </div>
+            </div>
+            <img src="../assets/img/destinations/ouzbekistan.jpg" class="radius bgimg" alt="destination ouzbékistan" />
+          </div>
+        </div>
       </div>
     </div>
     <!-- Desktop -->
     <div class="destination">
       <div class="is-hidden-touch">
         <div class="columns is-centered">
-
           <div class="column boite is-half">
             <div class="lienpays">
               <p>
@@ -140,6 +162,14 @@
             </div>
             <img src="../assets/img/destinations/indonesie.jpg" class="radius bgimg" alt="destination indonesie " />
             <p class="text titledest title">INDONÉSIE</p>
+          </div>
+          <div class="column boite is-half">
+            <div class="lienpays">
+              <p>
+                <a href="ouzbekistan.html">OUZBÉKISTAN</a></p>
+            </div>
+            <img src="../assets/img/destinations/ouzbekistan.jpg" class="radius bgimg" alt="destination ouzbékistan" />
+            <p class="text titledest title">OUZBÉKISTAN</p>
           </div>
         </div>
       </div>
