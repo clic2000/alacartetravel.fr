@@ -3,7 +3,7 @@ function toggleModal() {
   element.classList.toggle("is-active");
 }
 
-function toggleDropdownAng() {
+/* function toggleDropdownAng() {
   var element = document.getElementById("ang");
   element.classList.toggle("is-active");
 }
@@ -116,4 +116,14 @@ function toggleDropdownPol() {
 function toggleDropdownOuz() {
   var element = document.getElementById("ouz");
   element.classList.toggle("is-active");
+} */
+
+var elements = document.getElementsByClassName("drop-item");
+
+function toggleDropdown() {
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].onclick = function(event) {
+      this.classList.toggle("is-active");
+    };
+  }
 }

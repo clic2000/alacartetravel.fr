@@ -19,10 +19,10 @@
 
     <!--JQUERY - FADEIN EFFECT-->
     <script>
-        jQuery(document).ready(function() {
-      $('div.hidden').fadeIn(2000).removeClass('hidden');
-    });
-  </script>
+        jQuery(document).ready(function () {
+            $('div.hidden').fadeIn(2000).removeClass('hidden');
+        });
+    </script>
 
 
     <!--FAVICON-->
@@ -43,8 +43,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-      <!-- LINK TO MATOMO TRACKING SCRIPT -->
-<script src="assets/js/tracking.js"></script>
+    <!-- LINK TO MATOMO TRACKING SCRIPT -->
+    <script src="assets/js/tracking.js"></script>
 </head>
 
 <body>
@@ -91,23 +91,24 @@
             </li>
         </ul>
     </div>
-       <!--BREADCRUMB-->
-   <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+    <!--BREADCRUMB-->
+    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
         <ul>
-          <li><a href="../index.html">Accueil</a></li>
-          <li><a href="../destinations.html">Destinations</a></li>
-          <li class="is-active"><a href="europe.html" aria-current="page">Europe</a></li>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../destinations.html">Destinations</a></li>
+            <li class="is-active"><a href="europe.html" aria-current="page">Europe</a></li>
         </ul>
-      </nav>
+    </nav>
     <div class="hidden">
         <!-- Touch -->
         <div class="is-hidden-desktop">
             <div class="columns">
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="ang">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownAng(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>ANGLETERRE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -125,14 +126,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/angleterre.jpg" class="radius bgimg" alt="destination angleterre" />
+                        <img src="../assets/img/destinations/angleterre.jpg" class="radius bgimg"
+                            alt="destination angleterre" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="croa">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownCroa(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>CROATIE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -147,14 +150,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/croatie.jpg" class="radius bgimg" alt="destination croatie" />
+                        <img src="../assets/img/destinations/croatie.jpg" class="radius bgimg"
+                            alt="destination croatie" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="esp">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownEsp(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>ESPAGNE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -184,14 +189,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/espagne.jpg" class="radius bgimg" alt="destination espagne" />
+                        <img src="../assets/img/destinations/espagne.jpg" class="radius bgimg"
+                            alt="destination espagne" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="fr">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownFr(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>FRANCE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -231,16 +238,18 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/france.jpg" class="radius bgimg" alt="destination france" />
+                        <img src="../assets/img/destinations/france.jpg" class="radius bgimg"
+                            alt="destination france" />
                     </div>
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown boutonhong" id="hon">
+                        <div class="dropdown boutonhong drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownHon(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>HONGRIE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -255,14 +264,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/hongrie.jpg" class="radius bgimg" alt="destination hongrie" />
+                        <img src="../assets/img/destinations/hongrie.jpg" class="radius bgimg"
+                            alt="destination hongrie" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="irl">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownIrl(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>IRLANDE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -277,14 +288,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/irlande.jpg" class="radius bgimg" alt="destination irlande" />
+                        <img src="../assets/img/destinations/irlande.jpg" class="radius bgimg"
+                            alt="destination irlande" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="it">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownIt(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>ITALIE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -305,14 +318,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/italie.jpg" class="radius bgimg" alt="destination italie" />
+                        <img src="../assets/img/destinations/italie.jpg" class="radius bgimg"
+                            alt="destination italie" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="rep">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownRep(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>LETTONIE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -327,14 +342,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/lettonie.jpg" class="radius bgimg" alt="destination lettonie" />
+                        <img src="../assets/img/destinations/lettonie.jpg" class="radius bgimg"
+                            alt="destination lettonie" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="mont">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownMont(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>MONTÉNÉGRO</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -349,16 +366,18 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/montenegro.jpg" class="radius bgimg" alt="destination montenegro" />
+                        <img src="../assets/img/destinations/montenegro.jpg" class="radius bgimg"
+                            alt="destination montenegro" />
                     </div>
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="por">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownPor(); return false;">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>PORTUGAL</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -378,14 +397,16 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/img/destinations/portugal.jpg" class="radius bgimg" alt="destination portugal" />
+                        <img src="../assets/img/destinations/portugal.jpg" class="radius bgimg"
+                            alt="destination portugal" />
                     </div>
                 </div>
                 <div class="column">
                     <div class="boite3">
-                        <div class="dropdown bouton" id="su">
+                        <div class="dropdown bouton drop-item">
                             <div class="dropdown-trigger">
-                                <button class="button color" aria-haspopup="true" aria-controls="dropdown-menu" onclick="toggleDropdownSu(); return false;">
+                                <button class="button color" aria-haspopup="true" aria-controls="dropdown-menu"
+                                    onclick="toggleDropdown(this); return false;">
                                     <span>SUÈDE</span>
                                     <span class="icon is-small">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -416,14 +437,16 @@
                                 <a href="cornouailles.html">CORNOUAILLES</a><br>
                             </p>
                         </div>
-                        <img src="../assets/img/destinations/angleterre.jpg" class="radius bgimg" alt="destination angleterre" />
+                        <img src="../assets/img/destinations/angleterre.jpg" class="radius bgimg"
+                            alt="destination angleterre" />
                         <p class="text titledest title">ANGLETERRE</p>
                     </div>
                     <div class="column boite">
                         <div class="lienpays">
                             <p><a href="dalmatie.html">DALMATIE</a></p>
                         </div>
-                        <img src="../assets/img/destinations/croatie.jpg" class="radius bgimg" alt="destination croatie" />
+                        <img src="../assets/img/destinations/croatie.jpg" class="radius bgimg"
+                            alt="destination croatie" />
                         <p class="text title titledest">CROATIE</p>
                     </div>
                     <div class="column boite">
@@ -435,7 +458,8 @@
                                 <a href="minorque.html">MINORQUE</a><br>
                             </p>
                         </div>
-                        <img src="../assets/img/destinations/espagne.jpg" class="radius bgimg" alt="destination espagne" />
+                        <img src="../assets/img/destinations/espagne.jpg" class="radius bgimg"
+                            alt="destination espagne" />
                         <p class="text title titledest">ESPAGNE</p>
                     </div>
                 </div>
@@ -449,7 +473,8 @@
                                 <a href="nantes.html">NANTES</a><br>
                                 <a href="paris.html">PARIS</a></p>
                         </div>
-                        <img src="../assets/img/destinations/france.jpg" class="radius bgimg" alt="destination france" />
+                        <img src="../assets/img/destinations/france.jpg" class="radius bgimg"
+                            alt="destination france" />
                         <p class="text title titledest">FRANCE</p>
                     </div>
                     <div class="column boite">
@@ -457,14 +482,16 @@
                             <p>
                                 <a href="budapest.html">BUDAPEST</a><br>
                         </div>
-                        <img src="../assets/img/destinations/hongrie.jpg" class="radius bgimg" alt="destination hongrie" />
+                        <img src="../assets/img/destinations/hongrie.jpg" class="radius bgimg"
+                            alt="destination hongrie" />
                         <p class="text titledest title">HONGRIE</p>
                     </div>
                     <div class="column boite">
                         <div class="lienpays">
                             <p><a href="dublin.html">DUBLIN</a></p>
                         </div>
-                        <img src="../assets/img/destinations/irlande.jpg" class="radius bgimg" alt="destination irlande" />
+                        <img src="../assets/img/destinations/irlande.jpg" class="radius bgimg"
+                            alt="destination irlande" />
                         <p class="text title titledest">IRLANDE</p>
                     </div>
                 </div>
@@ -473,17 +500,19 @@
                         <div class="lienpays">
                             <p>
                                 <a href="verone.html">DE VÉRONE AU LAC DE GARDE</a>
-                                <a href="rome.html">ROME</a>    
+                                <a href="rome.html">ROME</a>
                             </p>
                         </div>
-                        <img src="../assets/img/destinations/italie.jpg" class="radius bgimg" alt="destination italie" />
+                        <img src="../assets/img/destinations/italie.jpg" class="radius bgimg"
+                            alt="destination italie" />
                         <p class="text title titledest">ITALIE</p>
                     </div>
                     <div class="column boite">
                         <div class="lienpays">
                             <p><a href="lettonie.html">LETTONIE</a></p>
                         </div>
-                        <img src="../assets/img/destinations/lettonie.jpg" class="radius bgimg" alt="destination lettonie" />
+                        <img src="../assets/img/destinations/lettonie.jpg" class="radius bgimg"
+                            alt="destination lettonie" />
                         <p class="text title titledest">LETTONIE</p>
                     </div>
                     <div class="column boite">
@@ -492,7 +521,8 @@
                                 <a href="montenegro.html">MONTÉNÉGRO</a>
                             </p>
                         </div>
-                        <img src="../assets/img/destinations/montenegro.jpg" class="radius bgimg" alt="destination monténégro" />
+                        <img src="../assets/img/destinations/montenegro.jpg" class="radius bgimg"
+                            alt="destination monténégro" />
                         <p class="text titledest title">MONTÉNÉGRO</p>
                     </div>
 
@@ -504,7 +534,8 @@
                                 <a href="lisbonne.html">LISBONNE</a><br>
                                 <a href="porto.html">PORTO</a><br></p>
                         </div>
-                        <img src="../assets/img/destinations/portugal.jpg" class="radius bgimg" alt="destination portugal" />
+                        <img src="../assets/img/destinations/portugal.jpg" class="radius bgimg"
+                            alt="destination portugal" />
                         <p class="text titledest title">PORTUGAL</p>
                     </div>
                     <div class="column boite">
@@ -522,7 +553,8 @@
     </div>
     <!--FOOTER-->
     <footer>
-        <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#" onclick="toggleModal(); return false;">Mentions
+        <a href="https://clic2000.fr" target="_blank">Site Web : Clic2000</a> · <a href="#"
+            onclick="toggleModal(); return false;">Mentions
             Légales</a>
     </footer>
     <div class="modal has-text-justified">
@@ -542,7 +574,8 @@
                     056170010<br> Garantie Financière : APST, 15 avenue Carnot, 75017 Paris<br>
                     <br> Assurance RCP : Gras Savoye, 33 quai de Dion Bouton, 92 800 Puteaux<br>
                     <br> Code APE : 7912 Z<br> Numéro TVA : FR68830550620<br>
-                    <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a href="https://clic2000.fr">Clic2000</a>.<br>
+                    <br> Le site <a href="../index.html">www.alacartetravel.fr</a> est hébergé par <a
+                        href="https://clic2000.fr">Clic2000</a>.<br>
                     <br>
                 </p>
                 <br>
